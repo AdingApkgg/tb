@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+$primary-color: rgba(115, 49, 205);
+$background: #191919;
+$foreground: white;
+$link-color: #007cbc;
+
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+.index {
+  background: $primary-color;
+}

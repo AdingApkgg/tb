@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ config.title }}</title>
+    <meta
+      name="description"
+      content="图吧工具箱（全称图拉丁吧硬件检测工具箱）是一款开源、免费、绿色、纯净的硬件检测工具合集，专为图钉及所有DIY爱好者打造，内含常用硬件测试与检测工具，是月工JS的必备利器！"
+    />
+    <meta
+      name="keywords"
+      content="图拉丁吧,图拉丁吧工具箱,硬件检测,硬件工具箱,DIY工具箱,开源工具箱"
+    />
+    <meta name="author" content="Asuna" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="图吧工具箱 - 纯净的硬件检测工具合集" />
+    <meta
+      property="og:description"
+      content="图吧工具箱（全称图拉丁吧硬件检测工具箱）是一款开源、免费、绿色、纯净的硬件检测工具合集，专为图钉及所有DIY爱好者打造，内含常用硬件测试与检测工具，是月工JS的必备利器！"
+    />
+    <meta property="og:image" content="img/favicon.ico" />
+    <meta property="og:url" content="https://tb.saop.cc/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="图拉丁吧工具箱" />
+    <meta property="og:locale" content="zh" />
+    <link rel="stylesheet" href="css/style.css" importance="high" />
+    <link
+      rel="stylesheet"
+      href="https://registry.npmmirror.com/animate.css/latest/files/animate.min.css"
+      importance="high"
+    />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <a href="/"><img src="img/favicon.ico" alt="logo" /></a>
+      <nav>
+        <ul>
+          <li><a href="introduction">简介</a></li>
+          <li><a href="sdk">SDK</a></li>
+          <li><a href="bbs">加群</a></li>
+          <li><a href="donate">捐赠</a></li>
+          <li><a href="faq">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="animate__flip">
+      {% block content %} {% endblock content %}
+    </main>
+    <footer>
+      <div class="copyright">
+        <b>&copy; <a href="https://saop.cc" target="_blank">Asuna</a></b>
+      </div>
+    </footer>
+    <script
+      async
+      type="module"
+      src="js/turbo.es2017-esm.js"
+      importance="high"
+    ></script>
+  </body>
+</html>
