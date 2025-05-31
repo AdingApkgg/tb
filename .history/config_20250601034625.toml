@@ -1,6 +1,0 @@
-base_url = "https://tb.saop.cc"
-
-title = "图吧工具箱 - 最纯净的硬件工具箱"
-description = "全名图拉丁吧硬件检测工具箱，是开源、免费、绿色、纯净的硬件检测工具合集，专为图钉及所有DIY爱好者制作，包含常用硬件测试和检测工具，月工JS必备！"
-
-compile_sass = true
