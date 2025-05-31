@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
+    <title>图吧工具箱 - 纯净的硬件检测工具合集</title>
+    <subtitle>图吧工具箱（全称图拉丁吧硬件检测工具箱）是一款开源、免费、绿色、纯净的硬件检测工具合集，专为图钉及所有DIY爱好者打造，内含常用硬件测试与检测工具，是月工JS的必备利器！</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://tb.saop.cc/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://tb.saop.cc"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-06-01T00:00:00+00:00</updated>
+    <id>https://tb.saop.cc/atom.xml</id>
+    <entry xml:lang="zh">
+        <title>加群交流</title>
+        <published>2025-06-01T00:00:00+00:00</published>
+        <updated>2025-06-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tb.saop.cc/bbs/"/>
+        <id>https://tb.saop.cc/bbs/</id>
+        
+        <content type="html" xml:base="https://tb.saop.cc/bbs/">&lt;p&gt;欢迎各位加入图吧工具箱交流群，在群内不仅可以愉快的交流各种软件、硬件知识，共同学习、进步，甚至还能交♂友。&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: center&quot;&gt;群号&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;715***906&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;977***740&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;921***580&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;247***443&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;731***756&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;885***576&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;917***601&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;...&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;目前所有群已满员，请耐心等待开放新群。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>捐赠</title>
+        <published>2025-06-01T00:00:00+00:00</published>
+        <updated>2025-06-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tb.saop.cc/donate/"/>
+        <id>https://tb.saop.cc/donate/</id>
+        
+        <content type="html" xml:base="https://tb.saop.cc/donate/">&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.tbtool.cn&#x2F;rc_images&#x2F;qq__20191216222425.jpg&quot; alt=&quot;支付宝&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>常见问题汇总</title>
+        <published>2025-06-01T00:00:00+00:00</published>
+        <updated>2025-06-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tb.saop.cc/faq/"/>
+        <id>https://tb.saop.cc/faq/</id>
+        
+        <content type="html" xml:base="https://tb.saop.cc/faq/">&lt;h2 id=&quot;shi-yong-liu-lan-qi-huo-qun-wen-jian-du-xia-zai-shi-bai&quot;&gt;使用浏览器或群文件都下载失败？&lt;&#x2F;h2&gt;
+&lt;p&gt;图吧工具箱作为小体量国产软件，可能会被国外杀毒软件当成潜在危险程序，所以下载时会被拦截，如果遇到这个问题，建议下载、使用图吧工具箱时暂时关闭杀毒软件，或者改用国内的杀毒软件。&lt;&#x2F;p&gt;
+&lt;p&gt;目前已知会拦截图吧工具箱的杀毒软件：迈克菲。&lt;&#x2F;p&gt;
+&lt;p&gt;解决方法：建议下载、使用图吧工具箱时暂时关闭杀毒软件，或者改用国内的杀毒软件。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;wei-shen-me-tu-ba-gong-ju-xiang-shi-lu-se-ruan-jian-xia-zai-zhi-hou-que-shi-exexu-yao-an-zhuang-ru-he-huo-qu-chuan-tong-yi-yi-shang-de-lu-se-ruan-jian-ya-suo-bao&quot;&gt;为什么图吧工具箱是绿色软件，下载之后却是exe需要安装？如何获取传统意义上的绿色软件（压缩包）？&lt;&#x2F;h2&gt;
+&lt;p&gt;可以在下载页找到绿色版的下载链接，下载之后用7-zip、WinRAR等压缩软件解压即可使用。&lt;&#x2F;p&gt;
+&lt;p&gt;解决方法：在下载页寻找绿色版(7z压缩包)的下载链接。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;you-xie-gong-ju-da-bu-kai&quot;&gt;有些工具打不开？&lt;&#x2F;h2&gt;
+&lt;p&gt;多为缺少工具所需运行库导致，也有可能是工具版本与系统位宽不匹配导致。&lt;&#x2F;p&gt;
+&lt;p&gt;解决方法：建议下载并安装运行库合集、.net运行库后再尝试打开。&lt;&#x2F;p&gt;
+&lt;p&gt;此外32位系统应选择32位工具即可正常打开。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;ying-jian-jian-ce-bu-zhun-que-huo-cun-zai-zheng-yi&quot;&gt;硬件检测不准确或存在争议？&lt;&#x2F;h2&gt;
+&lt;p&gt;图吧工具箱通过DMI、CPUID、注册表获取硬件信息，并不保证一定准确，数据仅供参考，请以实物为准。&lt;&#x2F;p&gt;
+&lt;p&gt;解决方法：建议使用工具箱内更专业的工具检测硬件信息。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;wei-shen-me-you-de-gong-ju-shi-ying-wen-ban&quot;&gt;为什么有的工具是英文版？&lt;&#x2F;h2&gt;
+&lt;p&gt;汉化版无法保证安全性，作者在收集、打包工具时会优先打包官方版 原版或未经修改的版本，这些工具官方可能并没有提供中文，因此工具箱内有一部分工具是英文版。&lt;&#x2F;p&gt;
+&lt;p&gt;解决方法：提升自己的英语水平、或者通过百度、搜狗、404等搜索引擎搜索使用教程。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;an-zhuang-jie-ya-shi-bao-cuo&quot;&gt;安装（解压）时报错？&lt;&#x2F;h2&gt;
+&lt;p&gt;通常是因为网络波动导致下载的文件不完整或损坏导致，建议使用123网盘重新下载解压。&lt;&#x2F;p&gt;
+&lt;p&gt;解决方法：使用123网盘重新下载解压。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;wu-fa-xie-zai-zhao-bu-dao-xie-zai-cheng-xu&quot;&gt;无法卸载、找不到卸载程序？&lt;&#x2F;h2&gt;
+&lt;p&gt;图吧工具箱安装版是可以在控制面板或设置里卸载的，绿色版则无需卸载，直接删除即可。&lt;&#x2F;p&gt;
+&lt;p&gt;解决方法：绿色版无需卸载，直接删除。安装包版本可在控制面板的添加和删除程序处或设置中的应用处卸载。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>程序简介</title>
+        <published>2025-06-01T00:00:00+00:00</published>
+        <updated>2025-06-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tb.saop.cc/introduction/"/>
+        <id>https://tb.saop.cc/introduction/</id>
+        
+        <content type="html" xml:base="https://tb.saop.cc/introduction/">&lt;p&gt;图吧工具箱，是开源、免费、绿色、纯净的硬件检测工具合集，专为所有计算机硬件极客、DIY爱好者、各路大神及小白制作。&lt;&#x2F;p&gt;
+&lt;p&gt;集成大量常见硬件检测、评分工具，一键下载、方便使用。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;zhuan-ye&quot;&gt;专业&lt;&#x2F;h2&gt;
+&lt;p&gt;专注于收集各种硬件检测、评分、测试工具，常见工具均有收集。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;chun-jing&quot;&gt;纯净&lt;&#x2F;h2&gt;
+&lt;p&gt;无任何捆绑强制安装行为，不写入注册表，没有任何敏感目录及文件操作，无任何诱导、孔吓、欺乍等操作。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;lu-se&quot;&gt;绿色&lt;&#x2F;h2&gt;
+&lt;p&gt;提供7z压缩包，无需安装、注册等复杂操作，解压即可使用。用完可直接删除，无需卸载。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;kai-fang&quot;&gt;开放&lt;&#x2F;h2&gt;
+&lt;p&gt;群文件可直接下载源码，并提供硬件检测SDK，主流编程语言无门槛调用，且无需授权、免费使用无任何限制。&lt;&#x2F;p&gt;
+&lt;p&gt;不忘初心，始于2014，持续10年稳定更新，坚持做能方便大家使用的硬件检测工具箱。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>硬件检测引擎</title>
+        <published>2025-06-01T00:00:00+00:00</published>
+        <updated>2025-06-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tb.saop.cc/sdk/"/>
+        <id>https://tb.saop.cc/sdk/</id>
+        
+        <content type="html" xml:base="https://tb.saop.cc/sdk/">&lt;h2 id=&quot;gong-neng&quot;&gt;功能&lt;&#x2F;h2&gt;
+&lt;p&gt;图吧工具箱硬件检测引擎可以获取计算机硬件信息，例如处理器信息、内存信息、主板信息、显卡信息等。&lt;&#x2F;p&gt;
+&lt;p&gt;在您的软件项目中使用本引擎可瞬间将开发难度降低到难以置信的程度，即使您并不了解电脑硬件知识或并不会使用编程语言，也可以在极短时间内使用少于 10 行的代码量完成硬件检测部分的开发。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;you-shi&quot;&gt;优势&lt;&#x2F;h2&gt;
+&lt;p&gt;权限需求低：图吧工具箱硬件检测引擎是少数可以在Ring3权限下实现硬件检测功能的引擎之一，完全可以省去购置白名单驱动签名的麻烦。&lt;&#x2F;p&gt;
+&lt;p&gt;极度轻巧：引擎文件大小控制在 1-2MB 之间，添加压缩壳后可进一步缩小至 KB 级别。&lt;&#x2F;p&gt;
+&lt;p&gt;使用门槛低：提供动态链接库(.dll)与主流编程语言例程，部分编程语言仅需1行代码即可实现硬件检测功能。&lt;&#x2F;p&gt;
+&lt;p&gt;数据库外置：可以单独更新数据库实现添加新硬件的支持，无需更新整个引擎。&lt;&#x2F;p&gt;
+&lt;p&gt;免费授权：与主流 SDK 按时长收费不同，本引擎是完全免费的，下载即可使用。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;zuo-zhe-de-qing-qiu&quot;&gt;作者的请求&lt;&#x2F;h2&gt;
+&lt;p&gt;遇到 BUG 建议发送邮件到 86738619@qq.com 邮箱，也可以直接加 QQ 反馈(可能偶尔看不到消息)，如果能带着解决方法且经过作者验证可行之后可获得红包奖励。&lt;&#x2F;p&gt;
+&lt;p&gt;说明：目前本引擎处于用爱发电状态，随时可能停更，建议 点此捐赠 以便于支持引擎长期发展。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;li-cheng&quot;&gt;例程&lt;&#x2F;h2&gt;
+&lt;p&gt;注：仅提供易语言例程、C# 例程、C++ 例程。如果遇到问题，请仔细阅读例程说明文档。作者不再提供无偿技术支持。&lt;&#x2F;p&gt;
+&lt;p&gt;2024.2.26：作者决定使用 C++ 重制本项目，重置后将支持 64 位及 Unicode，当前版本仍然可用，但建议等新版本。下载预览程序&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;pan.lanzoux.com&#x2F;b07rlv7gf&quot;&gt;下载例程(提取码f609)&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
