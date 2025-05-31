@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh">
   <head>
+    <meta name="generator" content="Zola" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ config.title }}</title>
@@ -34,7 +35,7 @@
   </head>
   <body>
     <header>
-      <a href="/"><img src="img/favicon.ico" alt="logo" /></a>
+      <a href="/"><img src="img/favicon.ico" alt="logo" loading="lazy" /></a>
       <nav>
         <ul>
           <li><a href="introduction">简介</a></li>
@@ -45,19 +46,13 @@
         </ul>
       </nav>
     </header>
-    <main class="index animate__bounceIn">
+    <main class="content animate__animated animate__fadeIn">
       {% block content %} {% endblock content %}
     </main>
-    <footer>
-      <div class="copyright">
-        <b>&copy; <a href="https://saop.cc" target="_blank">Asuna</a></b>
-      </div>
-    </footer>
     <script
-      async
       type="module"
-      src="js/turbo.es2017-esm.js"
-      fetchpriority="high"
+      src="https://registry.npmmirror.com/instant.page/latest/files/instantpage.js"
     ></script>
+    <script type="module" src="js/turbo.es2017-esm.js"></script>
   </body>
 </html>

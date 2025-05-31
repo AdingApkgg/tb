@@ -10,3 +10,7 @@ compile_sass = true
 minify_html = true
 
 generate_feeds = true
+
+feed_filenames = ["atom.xml", "rss.xml"]
+
+author = "Asuna"
