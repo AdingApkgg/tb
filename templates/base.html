@@ -37,20 +37,42 @@
       <nav>
         <ul>
           <li><a href="/introduction/">简介</a></li>
-          <li><a href="/sdk/">SDK</a></li>
+          <li><a href="/sdk/">引擎</a></li>
           <li><a href="/bbs/">加群</a></li>
           <li><a href="/donate/">捐赠</a></li>
-          <li><a href="/faq/">FAQ</a></li>
+          <li><a href="/faq/">问答</a></li>
+          <li><a href="/links/">友站</a></li>
         </ul>
       </nav>
     </header>
     <main class="content animate__animated animate__fadeIn">
       {% block content %} {% endblock content %}
     </main>
+    <footer>
+      <p>
+        访问：<span id="busuanzi_value_site_pv">null</span>，访客：<span
+          id="busuanzi_value_site_uv"
+          >null</span
+        >
+      </p>
+      <p class="links">
+        <a href="/rss.xml" target="_blank">RSS</a>&nbsp;
+        <a href="/sitemap.xml" target="_blank">Sitemap</a>&nbsp;
+        <a href="https://github.com/AdingApkgg/tb" target="_blank">GitHub</a>
+      </p>
+      <p class="copyright">
+        <b>&copy; <a href="https://saop.cc" target="_blank">Asuna</a></b>
+      </p>
+    </footer>
     <script
       type="module"
       src="https://registry.npmmirror.com/instant.page/latest/files/instantpage.js"
     ></script>
     <script type="module" src="js/turbo.es2017-esm.js"></script>
+    <script
+      async
+      src="https://registry.npmmirror.com/js-asuna/latest/files/js/bsz.pure.mini.js"
+      fetchpriority="low"
+    ></script>
   </body>
 </html>

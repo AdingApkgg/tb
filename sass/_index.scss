@@ -24,6 +24,15 @@
   }
 }
 
+#Comments {
+  margin: 0 auto;
+  width: 60%;
+  padding: 2rem;
+  background: $background;
+  color: $foreground;
+  border-radius: 0.5rem;
+}
+
 .selling-point {
   // 2 selling points per row on desktop
   width: 33%;
@@ -50,5 +59,9 @@
     h2 {
       text-align: center;
     }
+  }
+
+  #Comments {
+    width: 90%;
   }
 }

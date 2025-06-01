@@ -34,7 +34,10 @@
           <author>Asuna</author>
           <link>https://tb.saop.cc/donate/</link>
           <guid>https://tb.saop.cc/donate/</guid>
-          <description xml:base="https://tb.saop.cc/donate/">&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.tbtool.cn&#x2F;rc_images&#x2F;qq__20191216222425.jpg&quot; alt=&quot;支付宝&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+          <description xml:base="https://tb.saop.cc/donate/">&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: center&quot;&gt;支付宝&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.tbtool.cn&#x2F;rc_images&#x2F;qq__20191216222425.jpg&quot; alt=&quot;支付宝&quot; &#x2F;&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;...&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 </description>
       </item>
       <item>
@@ -85,6 +88,26 @@
 &lt;h2 id=&quot;kai-fang&quot;&gt;开放&lt;&#x2F;h2&gt;
 &lt;p&gt;群文件可直接下载源码，并提供硬件检测SDK，主流编程语言无门槛调用，且无需授权、免费使用无任何限制。&lt;&#x2F;p&gt;
 &lt;p&gt;不忘初心，始于2014，持续10年稳定更新，坚持做能方便大家使用的硬件检测工具箱。&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>友情链接</title>
+          <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+          <author>Asuna</author>
+          <link>https://tb.saop.cc/links/</link>
+          <guid>https://tb.saop.cc/links/</guid>
+          <description xml:base="https://tb.saop.cc/links/">&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: center&quot;&gt;站名&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;描述&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.tbtool.cn&#x2F;&quot;&gt;图拉丁吧工具箱&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;DIY爱好者的必备工具合集&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;tualatin.club&#x2F;&quot;&gt;图拉丁CLUB&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;DIY垃圾佬的网站&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;crystalmark.info&#x2F;&quot;&gt;Crystal Dew World&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;硬盘信息与测试&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.msi.com&#x2F;Landing&#x2F;afterburner&#x2F;&quot;&gt;MSI Afterburner&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;监控与超频&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.aida64.com&#x2F;&quot;&gt;AIDA64&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;传感器面板&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.geeks3d.com&#x2F;&quot;&gt;Geeks3D&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;显卡和 GPU 新闻、图形编程、FurMark 主页&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.3dmark.com&#x2F;&quot;&gt;3DMark&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;适用于所有硬件的基准测试&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.cpuid.com&#x2F;&quot;&gt;CPUID&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;CPUID 为您的 Windows 和 Android 设备提供系统和硬件基准测试、监控和报告质量软件&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.techpowerup.com&#x2F;&quot;&gt;TechPowerUp&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;领先的技术出版物，拥有快速的新闻、全面的评论和强大的社区。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;...&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;...&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 </description>
       </item>
       <item>

@@ -9,4 +9,36 @@
     >立即下载</a
   >
 </div>
+<link
+  rel="stylesheet"
+  href="https://registry.npmmirror.com/artalk/latest/files/dist/Artalk.css"
+  fetchpriority="low"
+/>
+<link
+  rel="stylesheet"
+  href="https://registry.npmmirror.com/lightgallery/2.8.2/files/css/lightgallery.css"
+  fetchpriority="low"
+/>
+<script
+  src="https://registry.npmmirror.com/lightgallery/latest/files/lightgallery.min.js"
+  fetchpriority="low"
+></script>
+<script
+  src="https://registry.npmmirror.com/artalk/latest/files/dist/Artalk.js"
+  fetchpriority="low"
+></script>
+<script
+  src="https://registry.npmmirror.com/@artalk/plugin-lightbox/latest/files/dist/artalk-plugin-lightbox.js"
+  fetchpriority="low"
+></script>
+<div id="Comments"></div>
+<script>
+  Artalk.init({
+    el: "#Comments",
+    pageKey: "https://tb.saop.cc",
+    server: "https://artalk.saop.cc",
+    site: "图吧工具箱",
+    darkMode: true,
+  });
+</script>
 {% endblock content %}
