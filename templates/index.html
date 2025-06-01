@@ -1,7 +1,7 @@
 {% extends "base.html" %} {% block content %}
 <div class="hero">
   <img src="img/hardinfo.avif" alt="hardinfo" loading="lazy" />
-  <h1>图拉丁吧工具箱</h1>
+  <h1 class="title">{% block title %}{{ config.title }}{% endblock title %}</h1>
   <p class="hero__tagline">DIY爱好者的必备工具合集</p>
   <a
     class="button"
