@@ -27,7 +27,6 @@
 #Comments {
   margin: 0 auto;
   width: 60%;
-  padding: 2rem;
   background: $background;
   color: $foreground;
   border-radius: 0.5rem;
@@ -60,8 +59,10 @@
       text-align: center;
     }
   }
+}
 
+@media (max-width: 960px) {
   #Comments {
-    width: 90%;
+    width: 100%;
   }
 }
