@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-      <title>图吧工具箱 - 纯净的硬件检测工具合集</title>
+      <title>图吧工具</title>
       <link>https://tb.saop.cc</link>
       <description>图吧工具箱（全称图拉丁吧硬件检测工具箱）是一款开源、免费、绿色、纯净的硬件检测工具合集，专为图钉及所有DIY爱好者打造，内含常用硬件测试与检测工具，是月工JS的必备利器！</description>
       <generator>Zola</generator>

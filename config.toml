@@ -1,6 +1,6 @@
 base_url = "https://tb.saop.cc"
 
-title = "图吧工具箱 - 纯净的硬件检测工具合集"
+title = "图吧工具"
 description = "图吧工具箱（全称图拉丁吧硬件检测工具箱）是一款开源、免费、绿色、纯净的硬件检测工具合集，专为图钉及所有DIY爱好者打造，内含常用硬件测试与检测工具，是月工JS的必备利器！"
 
 default_language = "zh"
@@ -18,3 +18,4 @@ author = "Asuna"
 [extra]
 keywords = "图吧工具箱, 图拉丁吧, 硬件检测工具, 开源软件, 免费软件, 绿色软件, 纯净软件, DIY爱好者"
 site_name = "图吧工具"
+hero_tagline = "搞机佬的必备工具集"
