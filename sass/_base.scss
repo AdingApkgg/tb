@@ -127,6 +127,7 @@ pre table td:nth-of-type(1) {
 p code,
 li code:not(pre code) {
   background-color: #f5f5f5;
+  color: $primary-color;
   white-space: pre-wrap;
   padding: 5px;
   border-radius: 5px;

@@ -19,6 +19,7 @@
   padding: 3rem;
 
   &__content {
+    margin: 3em auto;
     display: flex;
     flex-wrap: wrap;
   }
@@ -34,7 +35,7 @@
 
 .selling-point {
   // 2 selling points per row on desktop
-  width: 33%;
+  width: 50%;
   padding: 2rem;
   padding-top: 1rem;
 }

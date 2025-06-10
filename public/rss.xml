@@ -7,37 +7,50 @@
       <generator>Zola</generator>
       <language>zh</language>
       <atom:link href="https://tb.saop.cc/rss.xml" rel="self" type="application/rss+xml"/>
-      <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+      <lastBuildDate>Tue, 10 Jun 2025 00:00:00 +0000</lastBuildDate>
       <item>
-          <title>加群交流</title>
-          <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+          <title>关于本站</title>
+          <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
           <author>Asuna</author>
-          <link>https://tb.saop.cc/bbs/</link>
-          <guid>https://tb.saop.cc/bbs/</guid>
-          <description xml:base="https://tb.saop.cc/bbs/">&lt;p&gt;欢迎各位加入交流群，在群内不仅可以愉快的交流各种软件、硬件知识，共同学习、进步，甚至还能交♂友。&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;zhu-qun&quot;&gt;主群&lt;&#x2F;h2&gt;
+          <link>https://tb.saop.cc/about/</link>
+          <guid>https://tb.saop.cc/about/</guid>
+          <description xml:base="https://tb.saop.cc/about/">&lt;ul&gt;
+&lt;li&gt;本站始建于 2025 年 06 月 01 日&lt;&#x2F;li&gt;
+&lt;li&gt;站长将以最低成本维护本站，力求稳定存活长久&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;jia-qun-jiao-liu&quot;&gt;加群交流&lt;&#x2F;h2&gt;
+&lt;p&gt;欢迎各位加入交流群，在群内不仅可以愉快的交流各种软件、硬件知识，共同学习、进步，甚至还能交 ♂ 友。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhu-qun&quot;&gt;主群&lt;&#x2F;h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;qm.qq.com&#x2F;q&#x2F;ZaWCOPv0Iy&quot;&gt;图拉丁club茶馆&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;qm.qq.com&#x2F;q&#x2F;2Kxou2JJyo&quot;&gt;图拉丁硬件交流群&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;yan-sheng&quot;&gt;衍生&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;yan-sheng&quot;&gt;衍生&lt;&#x2F;h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;qm.qq.com&#x2F;q&#x2F;tZQTgBkfW8&quot;&gt;Zola&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;pd.qq.com&#x2F;s&#x2F;bkzyduno1?businessType=9&quot;&gt;割草&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;t.me&#x2F;FullDiveSAO&quot;&gt;塞尔穆布鲁克&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-</description>
-      </item>
-      <item>
-          <title>捐赠</title>
-          <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-          <author>Asuna</author>
-          <link>https://tb.saop.cc/donate/</link>
-          <guid>https://tb.saop.cc/donate/</guid>
-          <description xml:base="https://tb.saop.cc/donate/">&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: center&quot;&gt;支付宝&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.tbtool.cn&#x2F;rc_images&#x2F;qq__20191216222425.jpg&quot; alt=&quot;支付宝&quot; &#x2F;&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;...&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h2 id=&quot;ding-yue-ben-zhan&quot;&gt;订阅本站&lt;&#x2F;h2&gt;
+&lt;p&gt;如需订阅本站的 &lt;code&gt;RSS&lt;&#x2F;code&gt; 可访问：&lt;a href=&quot;&#x2F;rss.xml&quot;&gt;rss.xml&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;推荐这款在线 &lt;code&gt;RSS&lt;&#x2F;code&gt; 阅读器：&lt;a href=&quot;https:&#x2F;&#x2F;www.qireader.com&#x2F;&quot;&gt;QiReader&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;可使用 &lt;code&gt;RSS&lt;&#x2F;code&gt; 阅读器订阅本站，以便获取最新资源推送~&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;yong-jiu-wang-zhi&quot;&gt;永久网址&lt;&#x2F;h2&gt;
+&lt;p&gt;找不到网址的时候可到这里看最新网址：&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;AdingApkgg&#x2F;tb&#x2F;blob&#x2F;main&#x2F;public&#x2F;README.md&quot;&gt;AdingApkgg&#x2F;tb&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;收藏以上回家链，避免忘记归家路~&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;kai-fang-yuan-ma&quot;&gt;开放源码&lt;&#x2F;h2&gt;
+&lt;p&gt;由 &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt; 框架强力驱动！&lt;&#x2F;p&gt;
+&lt;p&gt;本站大部分源码已开源至 GitHub 社区，&lt;&#x2F;p&gt;
+&lt;p&gt;有兴趣探索本站的原理可访问：&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;AdingApkgg&#x2F;tb&quot;&gt;AdingApkgg&#x2F;tb&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;juan-zeng-ben-zhan&quot;&gt;捐赠本站&lt;&#x2F;h2&gt;
+&lt;p&gt;如果你觉得本站对你有帮助，或者想对我微小的工作一点支持，欢迎给我捐赠。&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;爱发电：&lt;a href=&quot;https:&#x2F;&#x2F;afdian.com&#x2F;a&#x2F;scale&quot;&gt;afdian.com&#x2F;a&#x2F;scale&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Patreon：&lt;a href=&quot;https:&#x2F;&#x2F;patreon.com&#x2F;KirigayaAsuna?utm_medium=unknown&amp;amp;utm_source=join_link&amp;amp;utm_campaign=creatorshare_creator&amp;amp;utm_content=copyLink&quot;&gt;patreon.com&#x2F;KirigayaAsuna&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;TRC20：&lt;a href=&quot;https:&#x2F;&#x2F;tronscan.org&#x2F;#&#x2F;address&#x2F;TGXpGgXBrFGjQLX8WuS3QAswCGzFyrnp1r&quot;&gt;TGXpGgXBrFGjQLX8WuS3QAswCGzFyrnp1r&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
 </description>
       </item>
       <item>
@@ -69,25 +82,6 @@
 &lt;h2 id=&quot;wu-fa-xie-zai-zhao-bu-dao-xie-zai-cheng-xu&quot;&gt;无法卸载、找不到卸载程序？&lt;&#x2F;h2&gt;
 &lt;p&gt;图吧工具箱安装版是可以在控制面板或设置里卸载的，绿色版则无需卸载，直接删除即可。&lt;&#x2F;p&gt;
 &lt;p&gt;解决方法：绿色版无需卸载，直接删除。安装包版本可在控制面板的添加和删除程序处或设置中的应用处卸载。&lt;&#x2F;p&gt;
-</description>
-      </item>
-      <item>
-          <title>程序简介</title>
-          <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-          <author>Asuna</author>
-          <link>https://tb.saop.cc/introduction/</link>
-          <guid>https://tb.saop.cc/introduction/</guid>
-          <description xml:base="https://tb.saop.cc/introduction/">&lt;p&gt;图吧工具箱，是开源、免费、绿色、纯净的硬件检测工具合集，专为所有计算机硬件极客、DIY爱好者、各路大神及小白制作。&lt;&#x2F;p&gt;
-&lt;p&gt;集成大量常见硬件检测、评分工具，一键下载、方便使用。&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;zhuan-ye&quot;&gt;专业&lt;&#x2F;h2&gt;
-&lt;p&gt;专注于收集各种硬件检测、评分、测试工具，常见工具均有收集。&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;chun-jing&quot;&gt;纯净&lt;&#x2F;h2&gt;
-&lt;p&gt;无任何捆绑强制安装行为，不写入注册表，没有任何敏感目录及文件操作，无任何诱导、孔吓、欺乍等操作。&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;lu-se&quot;&gt;绿色&lt;&#x2F;h2&gt;
-&lt;p&gt;提供7z压缩包，无需安装、注册等复杂操作，解压即可使用。用完可直接删除，无需卸载。&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;kai-fang&quot;&gt;开放&lt;&#x2F;h2&gt;
-&lt;p&gt;群文件可直接下载源码，并提供硬件检测SDK，主流编程语言无门槛调用，且无需授权、免费使用无任何限制。&lt;&#x2F;p&gt;
-&lt;p&gt;不忘初心，始于2014，持续10年稳定更新，坚持做能方便大家使用的硬件检测工具箱。&lt;&#x2F;p&gt;
 </description>
       </item>
       <item>
