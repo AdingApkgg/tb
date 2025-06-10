@@ -11,8 +11,7 @@ body {
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   line-height: 1.6;
   // from http://www.heropatterns.com
-  background-color: #191919;
-  background-image: $grid-pattern;
+  background: fixed #191919 $grid-pattern center;
 
   color: $foreground;
 
