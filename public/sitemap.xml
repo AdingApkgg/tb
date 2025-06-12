@@ -8,8 +8,20 @@
         <lastmod>2025-06-10</lastmod>
     </url>
     <url>
+        <loc>https://tb.saop.cc/cpu-ranking/</loc>
+        <lastmod>2025-06-12</lastmod>
+    </url>
+    <url>
         <loc>https://tb.saop.cc/faq/</loc>
         <lastmod>2025-06-01</lastmod>
+    </url>
+    <url>
+        <loc>https://tb.saop.cc/gpu-ranking/</loc>
+        <lastmod>2025-06-12</lastmod>
+    </url>
+    <url>
+        <loc>https://tb.saop.cc/guide/</loc>
+        <lastmod>2025-06-12</lastmod>
     </url>
     <url>
         <loc>https://tb.saop.cc/links/</loc>
@@ -18,5 +30,9 @@
     <url>
         <loc>https://tb.saop.cc/sdk/</loc>
         <lastmod>2025-06-01</lastmod>
+    </url>
+    <url>
+        <loc>https://tb.saop.cc/update/</loc>
+        <lastmod>2025-06-12</lastmod>
     </url>
 </urlset>
