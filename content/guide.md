@@ -7,9 +7,9 @@ date = 2025-06-12
 
 <video src="//disk.saop.cc/d/图吧/新手指引/查看内存品牌.mp4" controls></video>
 
-## 查看内存品牌
+## 查看电池损耗
 
-<video src="//disk.saop.cc/d/图吧/新手指引/查看内存品牌.mp4" controls></video>
+<video src="//disk.saop.cc/d/图吧/新手指引/查看电池损耗.mp4" controls></video>
 
 ## 查看显存颗粒品牌
 
