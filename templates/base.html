@@ -6,14 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://registry.npmmirror.com/" crossorigin />
     <link rel="dns-prefetch" href="https://registry.npmmirror.com/" />
-    {% set resolved_title = page.title | default(value=config.title) %}
+    {% set resolved_title = page.title | default(value=config.title) %} {% set
+    resolved_description = page.description | default(value=config.description)
+    %} {% set resolved_keywords = page.extra.keywords |
+    default(value=config.extra.keywords) %}
     <title>{{ resolved_title | safe }}</title>
-    <meta name="description" content="{{ config.description }}" />
-    <meta name="keywords" content="{{ config.extra.keywords }}" />
+    <meta name="description" content="{{ resolved_description | safe }}" />
+    <meta name="keywords" content="{{ resolved_keywords | safe }}" />
     <meta name="author" content="{{ config.author }}" />
     <meta name="robots" content="index, follow" />
     <meta property="og:title" content="{{ resolved_title | safe }}" />
-    <meta property="og:description" content="{{ config.description }}" />
+    <meta
+      property="og:description"
+      content="{{ resolved_description | safe }}"
+    />
     <meta property="og:image" content="/favicon.ico" />
     <meta property="og:url" content="https://tb.saop.cc/" />
     <meta property="og:type" content="website" />
@@ -29,6 +35,16 @@
       href="https://registry.npmmirror.com/animate.css/latest/files/animate.min.css"
       fetchpriority="high"
     />
+    <link
+      rel="stylesheet"
+      href="https://registry.npmmirror.com/artalk/latest/files/dist/Artalk.css"
+      fetchpriority="low"
+    />
+    <link
+      rel="stylesheet"
+      href="https://registry.npmmirror.com/lightgallery/latest/files/css/lightgallery.css"
+      fetchpriority="low"
+    />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   </head>
   <body>
@@ -41,13 +57,14 @@
           <li><a href="/guide/">指南</a></li>
           <li><a href="/faq/">问答</a></li>
           <li><a href="/links/">友站</a></li>
-          <li><a href="/update/">更新</a></li>
+          <li><a href="/kb/">卡硬</a></li>
           <li><a href="/about/">关于</a></li>
         </ul>
       </nav>
     </header>
     <main class="content animate__animated animate__fadeIn">
-      {% block content %} {% endblock content %}
+      <turbo-frame>{% block content %} {% endblock content %}</turbo-frame>
+      <turbo-frame><div id="Comments"></div></turbo-frame>
     </main>
     <footer>
       <p>
@@ -62,9 +79,10 @@
         >&nbsp;
         <a href="https://www.bilibili.com/video/BV1DJ411D79y" target="_blank"
           >系统安装</a
-        >&nbsp; <a href="/cpu-ranking/">CPU 天梯</a>&nbsp;
+        >&nbsp;<a href="/cpu-ranking/">CPU 天梯</a>&nbsp;
         <a href="/gpu-ranking/">显卡天梯</a>&nbsp;
-        <a href="/sdk/">引擎</a>&nbsp; <a href="/rss.xml">RSS</a>&nbsp;
+        <a href="/sdk/">引擎</a>&nbsp; <a href="/update/">更新</a>&nbsp;
+        <a href="/rss.xml">RSS</a>&nbsp;
         <a href="/sitemap.xml">Sitemap</a>&nbsp;
         <a href="https://github.com/AdingApkgg/tb" target="_blank">GitHub</a>
       </p>
@@ -85,5 +103,26 @@
       src="https://registry.npmmirror.com/js-asuna/latest/files/js/bsz.pure.mini.js"
       fetchpriority="low"
     ></script>
+    <script
+      src="https://registry.npmmirror.com/lightgallery/latest/files/lightgallery.min.js"
+      fetchpriority="low"
+    ></script>
+    <script
+      src="https://registry.npmmirror.com/artalk/latest/files/dist/Artalk.js"
+      fetchpriority="low"
+    ></script>
+    <script
+      src="https://registry.npmmirror.com/@artalk/plugin-lightbox/latest/files/dist/artalk-plugin-lightbox.js"
+      fetchpriority="low"
+    ></script>
+    <script>
+      Artalk.init({
+        el: "#Comments",
+        pageKey: "https://tb.saop.cc",
+        server: "https://artalk.saop.cc",
+        site: "图吧工具",
+        darkMode: true,
+      });
+    </script>
   </body>
 </html>

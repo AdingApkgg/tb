@@ -1,6 +1,6 @@
 {% extends "base.html" %} {% block content %}
 <div class="hero">
-  <img src="img/hardinfo.avif" alt="hardinfo" loading="lazy" />
+  <img src="/img/hardinfo.avif" alt="hardinfo" loading="lazy" />
   <h1 class="title">{% block title %}{{ config.title }}{% endblock title %}</h1>
   <p class="hero__tagline">{{ config.extra.hero_tagline }}</p>
   <p>
@@ -46,36 +46,4 @@
     </div>
   </div>
 </div>
-<link
-  rel="stylesheet"
-  href="https://registry.npmmirror.com/artalk/latest/files/dist/Artalk.css"
-  fetchpriority="low"
-/>
-<link
-  rel="stylesheet"
-  href="https://registry.npmmirror.com/lightgallery/latest/files/css/lightgallery.css"
-  fetchpriority="low"
-/>
-<script
-  src="https://registry.npmmirror.com/lightgallery/latest/files/lightgallery.min.js"
-  fetchpriority="low"
-></script>
-<script
-  src="https://registry.npmmirror.com/artalk/latest/files/dist/Artalk.js"
-  fetchpriority="low"
-></script>
-<script
-  src="https://registry.npmmirror.com/@artalk/plugin-lightbox/latest/files/dist/artalk-plugin-lightbox.js"
-  fetchpriority="low"
-></script>
-<div id="Comments"></div>
-<script>
-  Artalk.init({
-    el: "#Comments",
-    pageKey: "https://tb.saop.cc",
-    server: "https://artalk.saop.cc",
-    site: "图吧工具",
-    darkMode: true,
-  });
-</script>
 {% endblock content %}
