@@ -24,11 +24,31 @@
     <meta property="og:url" content="https://tb.saop.cc/" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="{{ config.extra.site_name }}" />
-    <meta property="og:locale" content="zh" />
+    <meta property="og:locale" content="{{ config.default_language }}" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      href="{{ config.base_url }}/rss.xml"
+      title="{{ config.title }}"
+    />
     <link
       rel="stylesheet"
       href="{{ get_url(path='site.css') }}"
       fetchpriority="high"
+    />
+    <script
+      src="https://registry.npmmirror.com/quicklink/latest/files/dist/quicklink.umd.js"
+      importance="high"
+    ></script>
+    <script
+      async
+      src="https://registry.npmmirror.com/pace-js/latest/files/pace.min.js"
+      importance="high"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://registry.npmmirror.com/pace-js/latest/files/themes/blue/pace-theme-flash.css"
+      importance="high"
     />
     <link
       rel="stylesheet"
@@ -116,6 +136,7 @@
       fetchpriority="low"
     ></script>
     <script>
+      quicklink.listen({ priority: true });
       Artalk.init({
         el: "#Comments",
         pageKey: "https://tb.saop.cc",

@@ -6,8 +6,7 @@
 .hero {
   width: 60%;
   margin: 0 auto;
-  margin-top: 3rem;
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
   text-align: center;
 
   &__tagline {
@@ -44,7 +43,6 @@
 @media only screen and (max-width: 1000px) {
   .hero {
     width: 90%;
-    margin-top: 2rem;
     margin-bottom: 4rem;
   }
 
