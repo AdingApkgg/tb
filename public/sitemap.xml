@@ -8,12 +8,24 @@
         <lastmod>2025-06-10</lastmod>
     </url>
     <url>
+        <loc>https://tb.saop.cc/bbs/</loc>
+        <lastmod>2025-06-13</lastmod>
+    </url>
+    <url>
         <loc>https://tb.saop.cc/cpu-ranking/</loc>
         <lastmod>2025-06-12</lastmod>
     </url>
     <url>
+        <loc>https://tb.saop.cc/donate/</loc>
+        <lastmod>2025-06-13</lastmod>
+    </url>
+    <url>
         <loc>https://tb.saop.cc/faq/</loc>
         <lastmod>2025-06-01</lastmod>
+    </url>
+    <url>
+        <loc>https://tb.saop.cc/feed/</loc>
+        <lastmod>2025-06-13</lastmod>
     </url>
     <url>
         <loc>https://tb.saop.cc/gpu-ranking/</loc>
@@ -25,10 +37,15 @@
     </url>
     <url>
         <loc>https://tb.saop.cc/kb/</loc>
+        <lastmod>2025-06-13</lastmod>
     </url>
     <url>
         <loc>https://tb.saop.cc/links/</loc>
         <lastmod>2025-06-01</lastmod>
+    </url>
+    <url>
+        <loc>https://tb.saop.cc/os/</loc>
+        <lastmod>2025-06-13</lastmod>
     </url>
     <url>
         <loc>https://tb.saop.cc/sdk/</loc>
@@ -37,5 +54,9 @@
     <url>
         <loc>https://tb.saop.cc/update/</loc>
         <lastmod>2025-06-12</lastmod>
+    </url>
+    <url>
+        <loc>https://tb.saop.cc/url/</loc>
+        <lastmod>2025-06-13</lastmod>
     </url>
 </urlset>

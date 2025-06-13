@@ -5,8 +5,150 @@
     <link rel="self" type="application/atom+xml" href="https://tb.saop.cc/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://tb.saop.cc"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-06-12T00:00:00+00:00</updated>
+    <updated>2025-06-13T00:00:00+00:00</updated>
     <id>https://tb.saop.cc/atom.xml</id>
+    <entry xml:lang="zh">
+        <title>加群交流</title>
+        <published>2025-06-13T00:00:00+00:00</published>
+        <updated>2025-06-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Asuna
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tb.saop.cc/bbs/"/>
+        <id>https://tb.saop.cc/bbs/</id>
+        
+        <content type="html" xml:base="https://tb.saop.cc/bbs/">&lt;p&gt;欢迎各位加入交流群，在群内不仅可以愉快的交流各种软件、硬件知识，共同学习、进步，甚至还能交 ♂ 友。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;zhu-qun&quot;&gt;主群&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;qm.qq.com&#x2F;q&#x2F;ZaWCOPv0Iy&quot;&gt;图拉丁club茶馆&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;qm.qq.com&#x2F;q&#x2F;2Kxou2JJyo&quot;&gt;图拉丁硬件交流群&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;yan-sheng&quot;&gt;衍生&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;qm.qq.com&#x2F;q&#x2F;tZQTgBkfW8&quot;&gt;Zola&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;pd.qq.com&#x2F;s&#x2F;bkzyduno1?businessType=9&quot;&gt;割草&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;t.me&#x2F;FullDiveSAO&quot;&gt;塞尔穆布鲁克&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>捐赠本站</title>
+        <published>2025-06-13T00:00:00+00:00</published>
+        <updated>2025-06-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Asuna
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tb.saop.cc/donate/"/>
+        <id>https://tb.saop.cc/donate/</id>
+        
+        <content type="html" xml:base="https://tb.saop.cc/donate/">&lt;p&gt;如果你觉得本站对你有帮助，或者想对我微小的工作一点支持，欢迎给我捐赠。&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;爱发电：&lt;a href=&quot;https:&#x2F;&#x2F;afdian.com&#x2F;a&#x2F;scale&quot;&gt;afdian.com&#x2F;a&#x2F;scale&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Patreon：&lt;a href=&quot;https:&#x2F;&#x2F;patreon.com&#x2F;KirigayaAsuna?utm_medium=unknown&amp;amp;utm_source=join_link&amp;amp;utm_campaign=creatorshare_creator&amp;amp;utm_content=copyLink&quot;&gt;patreon.com&#x2F;KirigayaAsuna&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;TRC20：&lt;a href=&quot;https:&#x2F;&#x2F;tronscan.org&#x2F;#&#x2F;address&#x2F;TGXpGgXBrFGjQLX8WuS3QAswCGzFyrnp1r&quot;&gt;TGXpGgXBrFGjQLX8WuS3QAswCGzFyrnp1r&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>订阅本站</title>
+        <published>2025-06-13T00:00:00+00:00</published>
+        <updated>2025-06-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Asuna
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tb.saop.cc/feed/"/>
+        <id>https://tb.saop.cc/feed/</id>
+        
+        <content type="html" xml:base="https://tb.saop.cc/feed/">&lt;p&gt;如需订阅本站的 &lt;code&gt;RSS&lt;&#x2F;code&gt; 可访问：&lt;a href=&quot;&#x2F;rss.xml&quot;&gt;rss.xml&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;推荐这款在线 &lt;code&gt;RSS&lt;&#x2F;code&gt; 阅读器：&lt;a href=&quot;https:&#x2F;&#x2F;www.qireader.com&#x2F;&quot;&gt;QiReader&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;可使用 &lt;code&gt;RSS&lt;&#x2F;code&gt; 阅读器订阅本站，以便获取最新资源推送~&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>卡硬工具</title>
+        <published>2025-06-13T00:00:00+00:00</published>
+        <updated>2025-06-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Asuna
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tb.saop.cc/kb/"/>
+        <id>https://tb.saop.cc/kb/</id>
+        
+        <content type="html" xml:base="https://tb.saop.cc/kb/"></content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>开放源码</title>
+        <published>2025-06-13T00:00:00+00:00</published>
+        <updated>2025-06-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Asuna
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tb.saop.cc/os/"/>
+        <id>https://tb.saop.cc/os/</id>
+        
+        <content type="html" xml:base="https://tb.saop.cc/os/">&lt;p&gt;由 &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt; 框架强力驱动！&lt;&#x2F;p&gt;
+&lt;p&gt;本站大部分源码已开源至 GitHub 社区，&lt;&#x2F;p&gt;
+&lt;p&gt;有兴趣探索本站的原理可访问：&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;AdingApkgg&#x2F;tb&quot;&gt;AdingApkgg&#x2F;tb&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>永久网址</title>
+        <published>2025-06-13T00:00:00+00:00</published>
+        <updated>2025-06-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Asuna
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tb.saop.cc/url/"/>
+        <id>https://tb.saop.cc/url/</id>
+        
+        <content type="html" xml:base="https://tb.saop.cc/url/">&lt;p&gt;找不到网址的时候可到这里看最新网址：&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;AdingApkgg&#x2F;tb&#x2F;blob&#x2F;main&#x2F;public&#x2F;README.md&quot;&gt;AdingApkgg&#x2F;tb&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;收藏以上回家链，避免忘记归家路~&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="zh">
         <title>CPU 天梯</title>
         <published>2025-06-12T00:00:00+00:00</published>
@@ -307,7 +449,12 @@ HDTune6.0暂时观望，TM5新版被windows defender拦截，也先观望。&lt;
         <link rel="alternate" type="text/html" href="https://tb.saop.cc/about/"/>
         <id>https://tb.saop.cc/about/</id>
         
-        <content type="html" xml:base="https://tb.saop.cc/about/">&lt;p&gt;三千预算进卡吧，加钱加到十万八。&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://tb.saop.cc/about/">&lt;ul&gt;
+&lt;li&gt;本站始建于 2025 年 06 月 01 日&lt;&#x2F;li&gt;
+&lt;li&gt;站长将以最低成本维护本站，力求稳定存活长久&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;三千预算进卡吧，加钱加到十万八。&lt;&#x2F;p&gt;
 &lt;p&gt;百核 TR 装上去，四路丽台抱回家。&lt;&#x2F;p&gt;
 &lt;p&gt;8K 屏幕组五屏，万元液氮温度压。&lt;&#x2F;p&gt;
 &lt;p&gt;固态硬盘装十块，硬盘内存使劲加。&lt;&#x2F;p&gt;
@@ -322,44 +469,6 @@ HDTune6.0暂时观望，TM5新版被windows defender拦截，也先观望。&lt;
 &lt;p&gt;键鼠一共九块九，外设包邮八块八。&lt;&#x2F;p&gt;
 &lt;p&gt;还是裸奔散热好，工包电源顶呱呱。&lt;&#x2F;p&gt;
 &lt;p&gt;最后发现奶太多，学校对面开网吧。&lt;&#x2F;p&gt;
-&lt;hr &#x2F;&gt;
-&lt;ul&gt;
-&lt;li&gt;本站始建于 2025 年 06 月 01 日&lt;&#x2F;li&gt;
-&lt;li&gt;站长将以最低成本维护本站，力求稳定存活长久&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;jia-qun-jiao-liu&quot;&gt;加群交流&lt;&#x2F;h2&gt;
-&lt;p&gt;欢迎各位加入交流群，在群内不仅可以愉快的交流各种软件、硬件知识，共同学习、进步，甚至还能交 ♂ 友。&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;zhu-qun&quot;&gt;主群&lt;&#x2F;h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;qm.qq.com&#x2F;q&#x2F;ZaWCOPv0Iy&quot;&gt;图拉丁club茶馆&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;qm.qq.com&#x2F;q&#x2F;2Kxou2JJyo&quot;&gt;图拉丁硬件交流群&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;h3 id=&quot;yan-sheng&quot;&gt;衍生&lt;&#x2F;h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;qm.qq.com&#x2F;q&#x2F;tZQTgBkfW8&quot;&gt;Zola&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;pd.qq.com&#x2F;s&#x2F;bkzyduno1?businessType=9&quot;&gt;割草&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;t.me&#x2F;FullDiveSAO&quot;&gt;塞尔穆布鲁克&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;ding-yue-ben-zhan&quot;&gt;订阅本站&lt;&#x2F;h2&gt;
-&lt;p&gt;如需订阅本站的 &lt;code&gt;RSS&lt;&#x2F;code&gt; 可访问：&lt;a href=&quot;&#x2F;rss.xml&quot;&gt;rss.xml&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;推荐这款在线 &lt;code&gt;RSS&lt;&#x2F;code&gt; 阅读器：&lt;a href=&quot;https:&#x2F;&#x2F;www.qireader.com&#x2F;&quot;&gt;QiReader&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;可使用 &lt;code&gt;RSS&lt;&#x2F;code&gt; 阅读器订阅本站，以便获取最新资源推送~&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;yong-jiu-wang-zhi&quot;&gt;永久网址&lt;&#x2F;h2&gt;
-&lt;p&gt;找不到网址的时候可到这里看最新网址：&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;AdingApkgg&#x2F;tb&#x2F;blob&#x2F;main&#x2F;public&#x2F;README.md&quot;&gt;AdingApkgg&#x2F;tb&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;收藏以上回家链，避免忘记归家路~&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;kai-fang-yuan-ma&quot;&gt;开放源码&lt;&#x2F;h2&gt;
-&lt;p&gt;由 &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt; 框架强力驱动！&lt;&#x2F;p&gt;
-&lt;p&gt;本站大部分源码已开源至 GitHub 社区，&lt;&#x2F;p&gt;
-&lt;p&gt;有兴趣探索本站的原理可访问：&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;AdingApkgg&#x2F;tb&quot;&gt;AdingApkgg&#x2F;tb&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;juan-zeng-ben-zhan&quot;&gt;捐赠本站&lt;&#x2F;h2&gt;
-&lt;p&gt;如果你觉得本站对你有帮助，或者想对我微小的工作一点支持，欢迎给我捐赠。&lt;&#x2F;p&gt;
-&lt;ul&gt;
-&lt;li&gt;爱发电：&lt;a href=&quot;https:&#x2F;&#x2F;afdian.com&#x2F;a&#x2F;scale&quot;&gt;afdian.com&#x2F;a&#x2F;scale&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Patreon：&lt;a href=&quot;https:&#x2F;&#x2F;patreon.com&#x2F;KirigayaAsuna?utm_medium=unknown&amp;amp;utm_source=join_link&amp;amp;utm_campaign=creatorshare_creator&amp;amp;utm_content=copyLink&quot;&gt;patreon.com&#x2F;KirigayaAsuna&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;TRC20：&lt;a href=&quot;https:&#x2F;&#x2F;tronscan.org&#x2F;#&#x2F;address&#x2F;TGXpGgXBrFGjQLX8WuS3QAswCGzFyrnp1r&quot;&gt;TGXpGgXBrFGjQLX8WuS3QAswCGzFyrnp1r&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
 </content>
         
     </entry>
@@ -424,6 +533,7 @@ HDTune6.0暂时观望，TM5新版被windows defender拦截，也先观望。&lt;
         <content type="html" xml:base="https://tb.saop.cc/links/">&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: center&quot;&gt;站名&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;描述&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.tbtool.cn&#x2F;&quot;&gt;图拉丁吧工具箱&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;DIY爱好者的必备工具合集&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;tualatin.club&#x2F;&quot;&gt;图拉丁CLUB&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;DIY垃圾佬的网站&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;www.kbtool.cn&#x2F;&quot;&gt;卡硬工具箱&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;集百家之长，掌握主机的每个角落&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;crystalmark.info&#x2F;&quot;&gt;Crystal Dew World&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;硬盘信息与测试&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.msi.com&#x2F;Landing&#x2F;afterburner&#x2F;&quot;&gt;MSI Afterburner&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;监控与超频&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.aida64.com&#x2F;&quot;&gt;AIDA64&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;传感器面板&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;

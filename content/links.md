@@ -7,6 +7,7 @@ date = 2025-06-01
 | :---------------------------------------------------------: | :----------------------------------------------------------------------------: |
 |          [图拉丁吧工具箱](https://www.tbtool.cn/)           |                            DIY爱好者的必备工具合集                             |
 |            [图拉丁CLUB](https://tualatin.club/)             |                                DIY垃圾佬的网站                                 |
+|             [卡硬工具箱](http://www.kbtool.cn/)             |                         集百家之长，掌握主机的每个角落                         |
 |       [Crystal Dew World](https://crystalmark.info/)        |                                 硬盘信息与测试                                 |
 | [MSI Afterburner](https://www.msi.com/Landing/afterburner/) |                                   监控与超频                                   |
 |              [AIDA64](https://www.aida64.com/)              |                                   传感器面板                                   |
