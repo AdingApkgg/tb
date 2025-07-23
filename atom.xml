@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
+    <title>图吧工具</title>
+    <subtitle>图吧工具箱（全称图拉丁吧硬件检测工具箱）是一款开源、免费、绿色、纯净的硬件检测工具合集，专为图钉及所有DIY爱好者打造，内含常用硬件测试与检测工具，是月工JS的必备利器！</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://tb.saop.cc/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://tb.saop.cc"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-06-13T00:00:00+00:00</updated>
+    <id>https://tb.saop.cc/atom.xml</id>
+    <entry xml:lang="zh">
+        <title>加群交流</title>
+        <published>2025-06-13T00:00:00+00:00</published>
+        <updated>2025-06-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Asuna
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tb.saop.cc/bbs/"/>
+        <id>https://tb.saop.cc/bbs/</id>
+        
+        <content type="html" xml:base="https://tb.saop.cc/bbs/">&lt;p&gt;欢迎各位加入交流群，在群内不仅可以愉快的交流各种软件、硬件知识，共同学习、进步，甚至还能交 ♂ 友。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;zhu-qun&quot;&gt;主群&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;qm.qq.com&#x2F;q&#x2F;ZaWCOPv0Iy&quot;&gt;图拉丁club茶馆&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;qm.qq.com&#x2F;q&#x2F;2Kxou2JJyo&quot;&gt;图拉丁硬件交流群&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;yan-sheng&quot;&gt;衍生&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;qm.qq.com&#x2F;q&#x2F;tZQTgBkfW8&quot;&gt;Zola&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;pd.qq.com&#x2F;s&#x2F;bkzyduno1?businessType=9&quot;&gt;割草&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;t.me&#x2F;FullDiveSAO&quot;&gt;塞尔穆布鲁克&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>捐赠本站</title>
+        <published>2025-06-13T00:00:00+00:00</published>
+        <updated>2025-06-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Asuna
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tb.saop.cc/donate/"/>
+        <id>https://tb.saop.cc/donate/</id>
+        
+        <content type="html" xml:base="https://tb.saop.cc/donate/">&lt;p&gt;如果你觉得本站对你有帮助，或者想对我微小的工作一点支持，欢迎给我捐赠。&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;爱发电：&lt;a href=&quot;https:&#x2F;&#x2F;afdian.com&#x2F;a&#x2F;scale&quot;&gt;afdian.com&#x2F;a&#x2F;scale&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Patreon：&lt;a href=&quot;https:&#x2F;&#x2F;patreon.com&#x2F;KirigayaAsuna?utm_medium=unknown&amp;amp;utm_source=join_link&amp;amp;utm_campaign=creatorshare_creator&amp;amp;utm_content=copyLink&quot;&gt;patreon.com&#x2F;KirigayaAsuna&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;TRC20：&lt;a href=&quot;https:&#x2F;&#x2F;tronscan.org&#x2F;#&#x2F;address&#x2F;TGXpGgXBrFGjQLX8WuS3QAswCGzFyrnp1r&quot;&gt;TGXpGgXBrFGjQLX8WuS3QAswCGzFyrnp1r&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>订阅本站</title>
+        <published>2025-06-13T00:00:00+00:00</published>
+        <updated>2025-06-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Asuna
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tb.saop.cc/feed/"/>
+        <id>https://tb.saop.cc/feed/</id>
+        
+        <content type="html" xml:base="https://tb.saop.cc/feed/">&lt;p&gt;如需订阅本站的 &lt;code&gt;RSS&lt;&#x2F;code&gt; 可访问：&lt;a href=&quot;&#x2F;rss.xml&quot;&gt;rss.xml&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;推荐这款在线 &lt;code&gt;RSS&lt;&#x2F;code&gt; 阅读器：&lt;a href=&quot;https:&#x2F;&#x2F;www.qireader.com&#x2F;&quot;&gt;QiReader&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;可使用 &lt;code&gt;RSS&lt;&#x2F;code&gt; 阅读器订阅本站，以便获取最新资源推送~&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>卡硬工具</title>
+        <published>2025-06-13T00:00:00+00:00</published>
+        <updated>2025-06-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Asuna
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tb.saop.cc/kb/"/>
+        <id>https://tb.saop.cc/kb/</id>
+        
+        <content type="html" xml:base="https://tb.saop.cc/kb/"></content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>开放源码</title>
+        <published>2025-06-13T00:00:00+00:00</published>
+        <updated>2025-06-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Asuna
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tb.saop.cc/os/"/>
+        <id>https://tb.saop.cc/os/</id>
+        
+        <content type="html" xml:base="https://tb.saop.cc/os/">&lt;p&gt;由 &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt; 框架强力驱动！&lt;&#x2F;p&gt;
+&lt;p&gt;本站大部分源码已开源至 GitHub 社区，&lt;&#x2F;p&gt;
+&lt;p&gt;有兴趣探索本站的原理可访问：&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;AdingApkgg&#x2F;tb&quot;&gt;AdingApkgg&#x2F;tb&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>永久网址</title>
+        <published>2025-06-13T00:00:00+00:00</published>
+        <updated>2025-06-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Asuna
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tb.saop.cc/url/"/>
+        <id>https://tb.saop.cc/url/</id>
+        
+        <content type="html" xml:base="https://tb.saop.cc/url/">&lt;p&gt;找不到网址的时候可到这里看最新网址：&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;AdingApkgg&#x2F;tb&#x2F;blob&#x2F;main&#x2F;public&#x2F;README.md&quot;&gt;AdingApkgg&#x2F;tb&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;收藏以上回家链，避免忘记归家路~&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>CPU 天梯</title>
+        <published>2025-06-12T00:00:00+00:00</published>
+        <updated>2025-06-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Asuna
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tb.saop.cc/cpu-ranking/"/>
+        <id>https://tb.saop.cc/cpu-ranking/</id>
+        
+        <content type="html" xml:base="https://tb.saop.cc/cpu-ranking/">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;tieba.baidu.com&#x2F;p&#x2F;5005825360&quot;&gt;《史上最全桌面级CPU天梯图》专用更新帖(公测版)&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;cpu-ranking.avif&quot; alt=&quot;cpu-ranking&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>显卡天梯</title>
+        <published>2025-06-12T00:00:00+00:00</published>
+        <updated>2025-06-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Asuna
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tb.saop.cc/gpu-ranking/"/>
+        <id>https://tb.saop.cc/gpu-ranking/</id>
+        
+        <content type="html" xml:base="https://tb.saop.cc/gpu-ranking/">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;tieba.baidu.com&#x2F;p&#x2F;6133450546&quot;&gt;《史上最全桌面级显卡天梯图》专用更新帖(公测版)&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;gpu-ranking.avif&quot; alt=&quot;gpu-ranking&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>新手指引</title>
+        <published>2025-06-12T00:00:00+00:00</published>
+        <updated>2025-06-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Asuna
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tb.saop.cc/guide/"/>
+        <id>https://tb.saop.cc/guide/</id>
+        
+        <content type="html" xml:base="https://tb.saop.cc/guide/">&lt;h2 id=&quot;cha-kan-nei-cun-pin-pai&quot;&gt;查看内存品牌&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;video src=&quot;&#x2F;&#x2F;disk.saop.cc&#x2F;d&#x2F;图吧&#x2F;新手指引&#x2F;查看内存品牌.mp4&quot; controls&gt;&lt;&#x2F;video&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;cha-kan-dian-chi-sun-hao&quot;&gt;查看电池损耗&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;video src=&quot;&#x2F;&#x2F;disk.saop.cc&#x2F;d&#x2F;图吧&#x2F;新手指引&#x2F;查看电池损耗.mp4&quot; controls&gt;&lt;&#x2F;video&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;cha-kan-xian-cun-ke-li-pin-pai&quot;&gt;查看显存颗粒品牌&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;video src=&quot;&#x2F;&#x2F;disk.saop.cc&#x2F;d&#x2F;图吧&#x2F;新手指引&#x2F;查看显存颗粒品牌.mp4&quot; controls&gt;&lt;&#x2F;video&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;cha-kan-ying-jian-wen-du&quot;&gt;查看硬件温度&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;video src=&quot;&#x2F;&#x2F;disk.saop.cc&#x2F;d&#x2F;图吧&#x2F;新手指引&#x2F;查看硬件温度.mp4&quot; controls&gt;&lt;&#x2F;video&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;dan-kao-cpu&quot;&gt;单烤CPU&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;video src=&quot;&#x2F;&#x2F;disk.saop.cc&#x2F;d&#x2F;图吧&#x2F;新手指引&#x2F;单烤CPU.mp4&quot; controls&gt;&lt;&#x2F;video&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;dan-kao-xian-qia&quot;&gt;单烤显卡&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;video src=&quot;&#x2F;&#x2F;disk.saop.cc&#x2F;d&#x2F;图吧&#x2F;新手指引&#x2F;单烤显卡.mp4&quot; controls&gt;&lt;&#x2F;video&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;shuang-kao&quot;&gt;双烤&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;video src=&quot;&#x2F;&#x2F;disk.saop.cc&#x2F;d&#x2F;图吧&#x2F;新手指引&#x2F;双烤.mp4&quot; controls&gt;&lt;&#x2F;video&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;ce-shi-nei-cun-xing-neng-he-yan-chi&quot;&gt;测试内存性能和延迟&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;video src=&quot;&#x2F;&#x2F;disk.saop.cc&#x2F;d&#x2F;图吧&#x2F;新手指引&#x2F;测试内存性能和延迟.mp4&quot; controls&gt;&lt;&#x2F;video&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;ce-shi-nei-cun-wen-ding-xing&quot;&gt;测试内存稳定性&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;video src=&quot;&#x2F;&#x2F;disk.saop.cc&#x2F;d&#x2F;图吧&#x2F;新手指引&#x2F;测试内存稳定性.mp4&quot; controls&gt;&lt;&#x2F;video&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;ce-shi-gu-tai-ying-pan-xing-neng&quot;&gt;测试固态硬盘性能&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;video src=&quot;&#x2F;&#x2F;disk.saop.cc&#x2F;d&#x2F;图吧&#x2F;新手指引&#x2F;测试固态硬盘性能.mp4&quot; controls&gt;&lt;&#x2F;video&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;sao-miao-ji-jie-ying-pan-pi-dao&quot;&gt;扫描机械硬盘坏道&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;video src=&quot;&#x2F;&#x2F;disk.saop.cc&#x2F;d&#x2F;图吧&#x2F;新手指引&#x2F;扫描机械硬盘坏道.mp4&quot; controls&gt;&lt;&#x2F;video&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;cha-kan-ying-pan-tong-dian-shi-jian-he-xie-ru-liang&quot;&gt;查看硬盘通电时间和写入量&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;video src=&quot;&#x2F;&#x2F;disk.saop.cc&#x2F;d&#x2F;图吧&#x2F;新手指引&#x2F;查看硬盘通电时间和写入量.mp4&quot; controls&gt;&lt;&#x2F;video&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;fen-xi-ci-pan-kong-jian-zhan-yong&quot;&gt;分析磁盘空间占用&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;video src=&quot;&#x2F;&#x2F;disk.saop.cc&#x2F;d&#x2F;图吧&#x2F;新手指引&#x2F;分析磁盘空间占用.mp4&quot; controls&gt;&lt;&#x2F;video&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;qing-li-la-ji-wen-jian&quot;&gt;清理垃圾文件&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;video src=&quot;&#x2F;&#x2F;disk.saop.cc&#x2F;d&#x2F;图吧&#x2F;新手指引&#x2F;清理垃圾文件.mp4&quot; controls&gt;&lt;&#x2F;video&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;jian-ce-upan-shi-fou-kuo-rong&quot;&gt;检测U盘是否扩容&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;video src=&quot;&#x2F;&#x2F;disk.saop.cc&#x2F;d&#x2F;图吧&#x2F;新手指引&#x2F;检测U盘是否扩容.mp4&quot; controls&gt;&lt;&#x2F;video&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;xie-zai-ruan-jian&quot;&gt;卸载软件&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;video src=&quot;&#x2F;&#x2F;disk.saop.cc&#x2F;d&#x2F;图吧&#x2F;新手指引&#x2F;卸载软件.mp4&quot; controls&gt;&lt;&#x2F;video&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>更新内容</title>
+        <published>2025-06-12T00:00:00+00:00</published>
+        <updated>2025-06-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Asuna
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tb.saop.cc/update/"/>
+        <id>https://tb.saop.cc/update/</id>
+        
+        <content type="html" xml:base="https://tb.saop.cc/update/">&lt;p&gt;图吧工具箱2025.07更新内容如下：&lt;&#x2F;p&gt;
+&lt;p&gt;CPUZ、ThrottleStop、Furmark1、Furmark2、Rufus、显卡天梯图、GPUZ、DDU、WizTree、AIDA64、HWiNFO、HWMonitor更新到最新版本。&lt;&#x2F;p&gt;
+&lt;p&gt;补齐Everything的简体中文语言文件。&lt;&#x2F;p&gt;
+&lt;p&gt;移除windows defender会误报的WTG辅助工具(files.dat文件导致误报)。&lt;&#x2F;p&gt;
+&lt;p&gt;简化安装步骤。&lt;&#x2F;p&gt;
+&lt;p&gt;===================================================================================&lt;&#x2F;p&gt;
+&lt;p&gt;图吧工具箱2025.02更新内容如下：&lt;&#x2F;p&gt;
+&lt;p&gt;CPUZ、GPUZ、HWiNOF、Furmark2、HWMonitor、DDU更新至最新版本&lt;&#x2F;p&gt;
+&lt;p&gt;近期NVIDIA发布了50系显卡，部分检测软件有更新，所以有了这个版本。&lt;&#x2F;p&gt;
+&lt;p&gt;===================================================================================&lt;&#x2F;p&gt;
+&lt;p&gt;图吧工具箱2025.01更新内容如下：&lt;&#x2F;p&gt;
+&lt;p&gt;CPUZ、Furmark2、Procexp、Rufus、显卡天梯图、DDU、GPUZ、HWiNFO、HWMonitor更新到最新版本，删除随机报错的diskfresh。&lt;&#x2F;p&gt;
+&lt;p&gt;由于windows defender smartscreen和windows defender的拦截，2023.11版本、2023.12版本均已夭折。&lt;&#x2F;p&gt;
+&lt;p&gt;2025.01版本于2024.12.17制作完成，下载链接已在制作组内部测试，如果还是拦截，可能2501版也会夭折。&lt;&#x2F;p&gt;
+&lt;p&gt;作者目前工作强度较高，无法投入太多精力到图吧工具箱项目中，望谅解。&lt;&#x2F;p&gt;
+&lt;p&gt;===================================================================================&lt;&#x2F;p&gt;
+&lt;p&gt;图吧工具箱2024.09更新内容如下：&lt;&#x2F;p&gt;
+&lt;p&gt;CPUZ、HWINFO、DDU、GPUZ更新到最新版本。&lt;&#x2F;p&gt;
+&lt;p&gt;新增支持白嫖3天会员的斧牛加速器。&lt;&#x2F;p&gt;
+&lt;p&gt;===================================================================================&lt;&#x2F;p&gt;
+&lt;p&gt;图吧工具箱2024.08更新内容如下：&lt;&#x2F;p&gt;
+&lt;p&gt;CPUZ、AIDA64、HWiNFO、DDU、HWMonitor、Geek、Everything更新到最新版本。
+显存温度压力测试回归。&lt;&#x2F;p&gt;
+&lt;p&gt;新增专业版，专业版将默认用户了解误报问题，因报毒而删除或未能加入的工具全部加入专业版。&lt;&#x2F;p&gt;
+&lt;p&gt;专业版特色：&lt;&#x2F;p&gt;
+&lt;p&gt;使用Green Software Manager(GSM)作为启动器。&lt;&#x2F;p&gt;
+&lt;p&gt;支持自定义分类&lt;&#x2F;p&gt;
+&lt;p&gt;拖拽压缩文件可自动识别并可选择解压到GSM目录\Softs内。&lt;&#x2F;p&gt;
+&lt;p&gt;可右键项目选择一键压缩(需设置好根目录)&lt;&#x2F;p&gt;
+&lt;p&gt;支持批量拖拽任意文件(exe、txt、jpg、png.......)加入。&lt;&#x2F;p&gt;
+&lt;p&gt;如果拖拽的快捷方式带有参数则自动识别并添加。&lt;&#x2F;p&gt;
+&lt;p&gt;可选启动时校验MD5.&lt;&#x2F;p&gt;
+&lt;p&gt;更多的个性化设置。&lt;&#x2F;p&gt;
+&lt;p&gt;.....&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;wei-fang-zhi-xin-shou-xia-zai-zhuan-ye-ban-hou-chu-xian-ge-chong-wen-ti-guan-wang-bu-zhi-jie-ti-gong-zhuan-ye-ban-xia-zai-lian-jie-ruo-xu-xia-zai-zhuan-ye-ban-da-kai-guan-wang-dian-ji-li-ji-xia-zai-xiu-gai-di-zhi-jiang-202408-htmlgai-wei-zyb-htmlgai-wan-zhi-hou-hui-che-ji-ke-tiao-zhuan-wang-pan-xia-zai&quot;&gt;为防止新手下载专业版后出现各种&quot;问题&quot;，官网不直接提供专业版下载连接，若需下载专业版，打开官网，点击立即下载，修改地址，将202408.html改为zyb.html
+改完之后回车即可跳转网盘下载。&lt;&#x2F;h1&gt;
+&lt;p&gt;图吧工具箱2024.07更新内容如下：&lt;&#x2F;p&gt;
+&lt;p&gt;DISM++、Ventoy、Rufus、DDU、Geek、Everything更新到最新版本。
+HDTune6.0暂时观望，TM5新版被windows defender拦截，也先观望。&lt;&#x2F;p&gt;
+&lt;p&gt;添加可以白嫖72小时会员的迅游加速器。&lt;&#x2F;p&gt;
+&lt;p&gt;除经典蓝(默认皮肤)之外的纯色渐变皮肤全部重新调色。&lt;&#x2F;p&gt;
+&lt;p&gt;后续会尽可能做到月更，furmark显存温度压力测试将于下个版本回归。&lt;&#x2F;p&gt;
+&lt;p&gt;===================================================================================&lt;&#x2F;p&gt;
+&lt;p&gt;图吧工具箱2024.06更新内容如下：&lt;&#x2F;p&gt;
+&lt;p&gt;1.暂时禁用存在闪退问题的furmark显存温度压力测试，后续会重新添加。&lt;&#x2F;p&gt;
+&lt;p&gt;2.显卡工具中的一键烤显卡改为定时30分钟，期间可随时退出。&lt;&#x2F;p&gt;
+&lt;p&gt;3.AIDA64更新到当前最新版。&lt;&#x2F;p&gt;
+&lt;p&gt;4.新增mouse tester。&lt;&#x2F;p&gt;
+&lt;p&gt;===================================================================================&lt;&#x2F;p&gt;
+&lt;p&gt;图吧工具箱2024.05更新内容如下：&lt;&#x2F;p&gt;
+&lt;p&gt;1.修复一键烤显卡和一键烤显存闪退问题。&lt;&#x2F;p&gt;
+&lt;p&gt;2.steam、epic官方下载链接新增中间页，即使网络原因无法打开steam、epic等官网也能通过中间页的网盘链接下载对应游戏平台。&lt;&#x2F;p&gt;
+&lt;p&gt;3.漏光与坏点测试现在可以用鼠标右键退出了。&lt;&#x2F;p&gt;
+&lt;p&gt;4.修复在不开启适配系统窗口动画和阴影的情况下内置工具打开时全屏居中改为以工具箱主程序矩形为中心居中无效的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;5.修复系统版本检测偶尔出现文本重复的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;这个版本主要修复bug和优化，没有功能更新。&lt;&#x2F;p&gt;
+&lt;p&gt;===================================================================================&lt;&#x2F;p&gt;
+&lt;p&gt;图吧工具箱2024.03更新内容如下&lt;&#x2F;p&gt;
+&lt;p&gt;1.新增游戏工具分类，可直达steam、epic官网，尽可能帮助新手用户解决下载到假steam或其他山寨平台的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;2.新增可适配系统窗口动画和阴影，包括win11的圆角窗口。&lt;&#x2F;p&gt;
+&lt;p&gt;3.新增支持检测酷睿Ultra系列集成的NPU信息。&lt;&#x2F;p&gt;
+&lt;p&gt;4.新增API获取系统版本，替换老旧的WMI取系统版本，提升速度。&lt;&#x2F;p&gt;
+&lt;p&gt;5.内置工具打开时全屏居中改为以工具箱主程序矩形为中心居中。&lt;&#x2F;p&gt;
+&lt;p&gt;6.新增显卡显存温度压力测试功能（调用Furmark）。&lt;&#x2F;p&gt;
+&lt;p&gt;7.重新开放选项设置中的静默检测硬件信息。&lt;&#x2F;p&gt;
+&lt;p&gt;8.解决无法检测Arc、MTT等显卡显存的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;9.修复部分新平台无法检测声卡的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;10.屏幕工具新增UFO高刷显示器测试链接。&lt;&#x2F;p&gt;
+&lt;p&gt;11.由于部分杀毒软件的限制，新版本不再使用Aspack压缩壳，工具箱主程序的体积也暴增至1.33MB，但其实这个版本优化了很多代码，使用Aspack压缩之后仅有502KB，作为对比23.09版本为638KB，无奈~&lt;&#x2F;p&gt;
+&lt;p&gt;12.修复TM5目录下的anta777-extreme配置文件无法使用的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;13.其他新增工具：FurMark2、GPUShark2、nvidiaProfileInspector、TxBENCH、WizTree、DiskFresh、KeyTweak、DirectX Repair、WTG辅助工具。&lt;&#x2F;p&gt;
+&lt;p&gt;已知且未解决的问题：&lt;&#x2F;p&gt;
+&lt;p&gt;1.暂不支持检测AMD CPU集成的NPU信息，如果有8000系锐龙且愿意帮忙解决的小伙伴可以联系作者QQ86738619（大概用时3-5分钟，解决之后请喝奶茶）。&lt;&#x2F;p&gt;
+&lt;p&gt;2.开启&amp;lt;适配窗口动画和阴影特效&amp;gt;之后，再打开皮肤选择窗口有概率会出现皮肤窗口消失的BUG，出现此BUG之后鼠标点击图吧工具箱主界面，然后按两次ALT+F4即可正常关闭。&lt;&#x2F;p&gt;
+&lt;p&gt;3.开启静默检测硬件信息之后，在打开工具箱的瞬间点击硬件信息有极小的概率出现界面错乱，切换工具分类即可解决。&lt;&#x2F;p&gt;
+&lt;p&gt;关于C++重制图吧工具箱的计划：&lt;&#x2F;p&gt;
+&lt;p&gt;目前计划进展顺利，硬件检测部分基本完成重制且已经测试过并修复了大部分的BUG，感兴趣的可以在官网SDK页面下载并测试，UI部分预计需要很长时间才能完成，毕竟作者也是利用业余时间，所以耐心等待吧~&lt;&#x2F;p&gt;
+&lt;p&gt;===================================================================================&lt;&#x2F;p&gt;
+&lt;p&gt;图吧工具箱2023.09R2更新内容如下&lt;&#x2F;p&gt;
+&lt;p&gt;1.修复Thaiphoon异常关闭的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;2.修复&amp;lt;下载皮肤编辑器&amp;gt;无效的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;3.移除OCCT。&lt;&#x2F;p&gt;
+&lt;p&gt;4.添加Steam官方下载页的快捷方式。&lt;&#x2F;p&gt;
+&lt;p&gt;5.移除老旧的兼容模式。&lt;&#x2F;p&gt;
+&lt;p&gt;===================================================================================&lt;&#x2F;p&gt;
+&lt;p&gt;图吧工具箱2023.09更新内容如下&lt;&#x2F;p&gt;
+&lt;p&gt;常规更新，仅把工具更新到最新版，主程序没有加入新功能，修复了在部分平台内存检测不准确的问题。功能没有更新。&lt;&#x2F;p&gt;
+&lt;p&gt;===================================================================================&lt;&#x2F;p&gt;
+&lt;p&gt;图吧工具箱2023.05更新内容如下&lt;&#x2F;p&gt;
+&lt;p&gt;1.修复静默检测硬件信息时，首次打开硬件信息界面会卡几毫秒的问题(但是引发了新的bug，作者正在尝试解决)。&lt;&#x2F;p&gt;
+&lt;p&gt;2.修复硬件信息界面显示&quot;系统信息&quot;会比其他项目慢几毫秒到几十毫秒的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;3.新增打开工具时给与反馈功能，在打开启动速度较慢的工具时可以轻松判断是否成功打开(可在选项设置界面找到该功能的开关)。&lt;&#x2F;p&gt;
+&lt;p&gt;4.支持检测内存品牌，但仅在部分环境下生效。&lt;&#x2F;p&gt;
+&lt;p&gt;5.修复无法正常识别整机品牌的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;6.修复几处控件错位的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;===================================================================================&lt;&#x2F;p&gt;
+&lt;p&gt;图吧工具箱2022.11更新内容如下&lt;&#x2F;p&gt;
+&lt;p&gt;1.添加一个引导窗口，用于在程序运行出现异常时提供解决方案（仅在程序运行出现异常时才会弹出此窗口）。&lt;&#x2F;p&gt;
+&lt;p&gt;2.尝试解决windows defender误报PUA问题。&lt;&#x2F;p&gt;
+&lt;p&gt;3.优化多条内存或LPDDR多颗粒内存的显示方式。&lt;&#x2F;p&gt;
+&lt;p&gt;4.为125%、150%缩放添加高清图标(其他缩放比例将会使用48*48的图标缩放)。&lt;&#x2F;p&gt;
+&lt;p&gt;5.加密压缩的工具打开时改为直接打开压缩包，而不是打开资源管理器。&lt;&#x2F;p&gt;
+&lt;p&gt;6.开放&quot;工具管理器&quot;，可以自由增删改查工具箱内工具(可在官网下载&quot;工具管理器&quot;)。&lt;&#x2F;p&gt;
+&lt;p&gt;7.新增双击版本号可以查看更新内容。&lt;&#x2F;p&gt;
+&lt;p&gt;8.新增支持动态图标，可在工具管理器中自定义工具图标选择gif图片实现。&lt;&#x2F;p&gt;
+&lt;p&gt;9.新增支持单文件运行，虽然可能没什么卵用。&lt;&#x2F;p&gt;
+&lt;p&gt;10.新增选择皮肤时可以查看皮肤预览。&lt;&#x2F;p&gt;
+&lt;p&gt;11.新增“新手指引”，小白可以更简单方便的使用图吧工具箱。&lt;&#x2F;p&gt;
+&lt;p&gt;以下为修复项：&lt;&#x2F;p&gt;
+&lt;p&gt;1.修复内存频率显示0MHz的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;2.修复双路CPU型号显示异常的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;3.修复CPU型号显示空格数量异常的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;4.修复型号检测显示异常的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;5.修复使用外置硬件ID数据库时崩溃的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;6.修复显示器尺寸检测到空数据不会跳过的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;7.修复硬盘容量显示异常的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;8.修复磁盘检测到空数据不会跳过的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;9.修复少部分环境下会将CPU线程数当作核心数的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;10.修复i集成显卡检测成双显卡的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;11.修复界面引擎在高于100%缩放的情况下部分字符坐标出现偏差的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;12.修复兼容模式无法检测芯片组、显卡品牌、内存类型的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;以下为已知且未解决的问题：&lt;&#x2F;p&gt;
+&lt;p&gt;1.无法正确检测英特尔ARC显卡的显存。&lt;&#x2F;p&gt;
+&lt;p&gt;===================================================================================&lt;&#x2F;p&gt;
+&lt;p&gt;图吧工具箱2022.07更新内容如下&lt;&#x2F;p&gt;
+&lt;p&gt;1.工具、天梯图更新到最新版。&lt;&#x2F;p&gt;
+&lt;p&gt;2.界面引擎开始兼容高DPI模式。&lt;&#x2F;p&gt;
+&lt;p&gt;3.硬件检测引擎更换为极速版，检测速度大幅提升。&lt;&#x2F;p&gt;
+&lt;p&gt;4.添加了一个简易的显示器测试工具用于替换DisplayX。&lt;&#x2F;p&gt;
+&lt;p&gt;5.为一键烤鸡添加了GUI。&lt;&#x2F;p&gt;
+&lt;p&gt;6.修复BlueScreenView32位无法打开的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;由于改动较大，可能存在的BUG也比较多，但大多数应该是不影响使用的。大家发现BUG之后可以联系作者企鹅86738619反馈。&lt;&#x2F;p&gt;
+&lt;p&gt;由于13代酷睿和40系显卡更新在即，所以预计2-3个月之后就会有新版本，大家注意留意。&lt;&#x2F;p&gt;
+&lt;p&gt;===================================================================================&lt;&#x2F;p&gt;
+&lt;p&gt;图吧工具箱2022.01（未签名版）更新内容如下&lt;&#x2F;p&gt;
+&lt;p&gt;1.工具、天梯图更新到最新版。&lt;&#x2F;p&gt;
+&lt;p&gt;2.添加一波工具。&lt;&#x2F;p&gt;
+&lt;p&gt;3.修复coretemp32位无法打开的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;4.针对误报进行了一波优化。&lt;&#x2F;p&gt;
+&lt;p&gt;硬件检测引擎更新内容如下：&lt;&#x2F;p&gt;
+&lt;p&gt;1.添加intel600系芯片组的支持。&lt;&#x2F;p&gt;
+&lt;p&gt;===================================================================================&lt;&#x2F;p&gt;
+&lt;p&gt;图吧工具箱2021.04(未签名版)更新内容如下&lt;&#x2F;p&gt;
+&lt;p&gt;1.修复某些工具无法打开的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;2.添加一波工具。&lt;&#x2F;p&gt;
+&lt;p&gt;3.工具更新到最新版。&lt;&#x2F;p&gt;
+&lt;p&gt;4.天梯图更新。&lt;&#x2F;p&gt;
+&lt;p&gt;由于工作比较忙，很多想法没时间一一实现，所以本次更新内容较少，后续一旦有时间就会有较大更新，敬请期待。&lt;&#x2F;p&gt;
+&lt;p&gt;也是由于时间关系，本次更新暂时没有数字签名，后续会补齐。&lt;&#x2F;p&gt;
+&lt;p&gt;===================================================================================&lt;&#x2F;p&gt;
+&lt;p&gt;图吧工具箱2020.？？更新内容如下：&lt;&#x2F;p&gt;
+&lt;p&gt;1.界面引擎更新，效果、运行效率与操作跟手度大幅提升。&lt;&#x2F;p&gt;
+&lt;p&gt;2.加入了一个简易图片查看器用于解决windows图片查看器无法正常调用的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;3.支持静默检测硬件信息并提供开关。&lt;&#x2F;p&gt;
+&lt;p&gt;4.部分易报毒的工具(例如win10数字激活工具)采用加密压缩的方式保存以便解决报毒问题。&lt;&#x2F;p&gt;
+&lt;p&gt;5.修复运行时间过长导致数据溢出的问题并优化算法(该功能无法支持VISTA之前的系统)。&lt;&#x2F;p&gt;
+&lt;p&gt;6.部分工具例行更新。&lt;&#x2F;p&gt;
+&lt;p&gt;硬件检测引擎更新内容如下：&lt;&#x2F;p&gt;
+&lt;p&gt;1.支持检测通过改注册表、BIOS等手段造假的CPU。&lt;&#x2F;p&gt;
+&lt;p&gt;2.新增部分面板ID、芯片组ID标识数据。&lt;&#x2F;p&gt;
+&lt;p&gt;3.显卡检测排除部分虚拟显卡。&lt;&#x2F;p&gt;
+&lt;p&gt;总体来讲相对于2020.01提升巨大，建议更新。&lt;&#x2F;p&gt;
+&lt;p&gt;===================================================================================&lt;&#x2F;p&gt;
+&lt;p&gt;图吧工具箱2020.01更新内容如下：&lt;&#x2F;p&gt;
+&lt;p&gt;1.开放AMD锐龙平台芯片组检测。&lt;&#x2F;p&gt;
+&lt;p&gt;2.新增部分核心架构标识数据。&lt;&#x2F;p&gt;
+&lt;p&gt;3.添加部分小众品牌显示器面板标识。&lt;&#x2F;p&gt;
+&lt;p&gt;修复：&lt;&#x2F;p&gt;
+&lt;p&gt;1.修复安装程序在部分环境下无法使  的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;2.修复皮肤数据丢失后窗口显示不正常的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;3.修复部分环境下卡在硬件检测的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;总体来讲本次更新相对于2019.12没有太多的功能更新，主要是修复部分比较影响使用的BUG，如果在使用2019.12版的过程中没有出现任何问题就不需要急于更新。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>关于本站</title>
+        <published>2025-06-10T00:00:00+00:00</published>
+        <updated>2025-06-10T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Asuna
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tb.saop.cc/about/"/>
+        <id>https://tb.saop.cc/about/</id>
+        
+        <content type="html" xml:base="https://tb.saop.cc/about/">&lt;ul&gt;
+&lt;li&gt;本站始建于 2025 年 06 月 01 日&lt;&#x2F;li&gt;
+&lt;li&gt;站长将以最低成本维护本站，力求稳定存活长久&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;三千预算进卡吧，加钱加到十万八。&lt;&#x2F;p&gt;
+&lt;p&gt;百核 TR 装上去，四路丽台抱回家。&lt;&#x2F;p&gt;
+&lt;p&gt;8K 屏幕组五屏，万元液氮温度压。&lt;&#x2F;p&gt;
+&lt;p&gt;固态硬盘装十块，硬盘内存使劲加。&lt;&#x2F;p&gt;
+&lt;p&gt;键鼠必花几千元，耳机手柄八千八。&lt;&#x2F;p&gt;
+&lt;p&gt;还有机箱六千元，红星炸弹啪啪啪。&lt;&#x2F;p&gt;
+&lt;p&gt;最后发现没啥用，抱着神机刷贴吧。&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;三千预算进图吧，一吨配置抱回家。&lt;&#x2F;p&gt;
+&lt;p&gt;八核至强装上去，魔改主板笑哈哈。&lt;&#x2F;p&gt;
+&lt;p&gt;4K 电影皆不惧，幽灵散热是最佳。&lt;&#x2F;p&gt;
+&lt;p&gt;最多一块破金胜，专用内存使劲加。&lt;&#x2F;p&gt;
+&lt;p&gt;键鼠一共九块九，外设包邮八块八。&lt;&#x2F;p&gt;
+&lt;p&gt;还是裸奔散热好，工包电源顶呱呱。&lt;&#x2F;p&gt;
+&lt;p&gt;最后发现奶太多，学校对面开网吧。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>常见问题汇总</title>
+        <published>2025-06-01T00:00:00+00:00</published>
+        <updated>2025-06-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Asuna
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tb.saop.cc/faq/"/>
+        <id>https://tb.saop.cc/faq/</id>
+        
+        <content type="html" xml:base="https://tb.saop.cc/faq/">&lt;h2 id=&quot;shi-yong-liu-lan-qi-huo-qun-wen-jian-du-xia-zai-shi-bai&quot;&gt;使用浏览器或群文件都下载失败？&lt;&#x2F;h2&gt;
+&lt;p&gt;图吧工具箱作为小体量国产软件，可能会被国外杀毒软件当成潜在危险程序，所以下载时会被拦截，如果遇到这个问题，建议下载、使用图吧工具箱时暂时关闭杀毒软件，或者改用国内的杀毒软件。&lt;&#x2F;p&gt;
+&lt;p&gt;目前已知会拦截图吧工具箱的杀毒软件：迈克菲。&lt;&#x2F;p&gt;
+&lt;p&gt;解决方法：建议下载、使用图吧工具箱时暂时关闭杀毒软件，或者改用国内的杀毒软件。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;wei-shen-me-tu-ba-gong-ju-xiang-shi-lu-se-ruan-jian-xia-zai-zhi-hou-que-shi-exexu-yao-an-zhuang-ru-he-huo-qu-chuan-tong-yi-yi-shang-de-lu-se-ruan-jian-ya-suo-bao&quot;&gt;为什么图吧工具箱是绿色软件，下载之后却是exe需要安装？如何获取传统意义上的绿色软件（压缩包）？&lt;&#x2F;h2&gt;
+&lt;p&gt;可以在下载页找到绿色版的下载链接，下载之后用7-zip、WinRAR等压缩软件解压即可使用。&lt;&#x2F;p&gt;
+&lt;p&gt;解决方法：在下载页寻找绿色版(7z压缩包)的下载链接。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;you-xie-gong-ju-da-bu-kai&quot;&gt;有些工具打不开？&lt;&#x2F;h2&gt;
+&lt;p&gt;多为缺少工具所需运行库导致，也有可能是工具版本与系统位宽不匹配导致。&lt;&#x2F;p&gt;
+&lt;p&gt;解决方法：建议下载并安装运行库合集、.net运行库后再尝试打开。&lt;&#x2F;p&gt;
+&lt;p&gt;此外32位系统应选择32位工具即可正常打开。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;ying-jian-jian-ce-bu-zhun-que-huo-cun-zai-zheng-yi&quot;&gt;硬件检测不准确或存在争议？&lt;&#x2F;h2&gt;
+&lt;p&gt;图吧工具箱通过DMI、CPUID、注册表获取硬件信息，并不保证一定准确，数据仅供参考，请以实物为准。&lt;&#x2F;p&gt;
+&lt;p&gt;解决方法：建议使用工具箱内更专业的工具检测硬件信息。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;wei-shen-me-you-de-gong-ju-shi-ying-wen-ban&quot;&gt;为什么有的工具是英文版？&lt;&#x2F;h2&gt;
+&lt;p&gt;汉化版无法保证安全性，作者在收集、打包工具时会优先打包官方版 原版或未经修改的版本，这些工具官方可能并没有提供中文，因此工具箱内有一部分工具是英文版。&lt;&#x2F;p&gt;
+&lt;p&gt;解决方法：提升自己的英语水平、或者通过百度、搜狗、404等搜索引擎搜索使用教程。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;an-zhuang-jie-ya-shi-bao-cuo&quot;&gt;安装（解压）时报错？&lt;&#x2F;h2&gt;
+&lt;p&gt;通常是因为网络波动导致下载的文件不完整或损坏导致，建议使用123网盘重新下载解压。&lt;&#x2F;p&gt;
+&lt;p&gt;解决方法：使用123网盘重新下载解压。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;wu-fa-xie-zai-zhao-bu-dao-xie-zai-cheng-xu&quot;&gt;无法卸载、找不到卸载程序？&lt;&#x2F;h2&gt;
+&lt;p&gt;图吧工具箱安装版是可以在控制面板或设置里卸载的，绿色版则无需卸载，直接删除即可。&lt;&#x2F;p&gt;
+&lt;p&gt;解决方法：绿色版无需卸载，直接删除。安装包版本可在控制面板的添加和删除程序处或设置中的应用处卸载。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>友情链接</title>
+        <published>2025-06-01T00:00:00+00:00</published>
+        <updated>2025-06-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Asuna
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tb.saop.cc/links/"/>
+        <id>https://tb.saop.cc/links/</id>
+        
+        <content type="html" xml:base="https://tb.saop.cc/links/">&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: center&quot;&gt;站名&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;描述&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.tbtool.cn&#x2F;&quot;&gt;图拉丁吧工具箱&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;DIY爱好者的必备工具合集&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;tualatin.club&#x2F;&quot;&gt;图拉丁CLUB&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;DIY垃圾佬的网站&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;www.kbtool.cn&#x2F;&quot;&gt;卡硬工具箱&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;集百家之长，掌握主机的每个角落&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;crystalmark.info&#x2F;&quot;&gt;Crystal Dew World&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;硬盘信息与测试&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.msi.com&#x2F;Landing&#x2F;afterburner&#x2F;&quot;&gt;MSI Afterburner&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;监控与超频&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.aida64.com&#x2F;&quot;&gt;AIDA64&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;传感器面板&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.geeks3d.com&#x2F;&quot;&gt;Geeks3D&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;显卡和 GPU 新闻、图形编程、FurMark 主页&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.3dmark.com&#x2F;&quot;&gt;3DMark&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;适用于所有硬件的基准测试&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.cpuid.com&#x2F;&quot;&gt;CPUID&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;CPUID 为您的 Windows 和 Android 设备提供系统和硬件基准测试、监控和报告质量软件&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.techpowerup.com&#x2F;&quot;&gt;TechPowerUp&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;领先的技术出版物，拥有快速的新闻、全面的评论和强大的社区。&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;...&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;...&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>硬件检测引擎</title>
+        <published>2025-06-01T00:00:00+00:00</published>
+        <updated>2025-06-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Asuna
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tb.saop.cc/sdk/"/>
+        <id>https://tb.saop.cc/sdk/</id>
+        
+        <content type="html" xml:base="https://tb.saop.cc/sdk/">&lt;h2 id=&quot;gong-neng&quot;&gt;功能&lt;&#x2F;h2&gt;
+&lt;p&gt;图吧工具箱硬件检测引擎可以获取计算机硬件信息，例如处理器信息、内存信息、主板信息、显卡信息等。&lt;&#x2F;p&gt;
+&lt;p&gt;在您的软件项目中使用本引擎可瞬间将开发难度降低到难以置信的程度，即使您并不了解电脑硬件知识或并不会使用编程语言，也可以在极短时间内使用少于 10 行的代码量完成硬件检测部分的开发。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;you-shi&quot;&gt;优势&lt;&#x2F;h2&gt;
+&lt;p&gt;权限需求低：图吧工具箱硬件检测引擎是少数可以在Ring3权限下实现硬件检测功能的引擎之一，完全可以省去购置白名单驱动签名的麻烦。&lt;&#x2F;p&gt;
+&lt;p&gt;极度轻巧：引擎文件大小控制在 1-2MB 之间，添加压缩壳后可进一步缩小至 KB 级别。&lt;&#x2F;p&gt;
+&lt;p&gt;使用门槛低：提供动态链接库(.dll)与主流编程语言例程，部分编程语言仅需1行代码即可实现硬件检测功能。&lt;&#x2F;p&gt;
+&lt;p&gt;数据库外置：可以单独更新数据库实现添加新硬件的支持，无需更新整个引擎。&lt;&#x2F;p&gt;
+&lt;p&gt;免费授权：与主流 SDK 按时长收费不同，本引擎是完全免费的，下载即可使用。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;zuo-zhe-de-qing-qiu&quot;&gt;作者的请求&lt;&#x2F;h2&gt;
+&lt;p&gt;遇到 BUG 建议发送邮件到 86738619@qq.com 邮箱，也可以直接加 QQ 反馈(可能偶尔看不到消息)，如果能带着解决方法且经过作者验证可行之后可获得红包奖励。&lt;&#x2F;p&gt;
+&lt;p&gt;说明：目前本引擎处于用爱发电状态，随时可能停更，建议 点此捐赠 以便于支持引擎长期发展。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;li-cheng&quot;&gt;例程&lt;&#x2F;h2&gt;
+&lt;p&gt;注：仅提供易语言例程、C# 例程、C++ 例程。如果遇到问题，请仔细阅读例程说明文档。作者不再提供无偿技术支持。&lt;&#x2F;p&gt;
+&lt;p&gt;2024.2.26：作者决定使用 C++ 重制本项目，重置后将支持 64 位及 Unicode，当前版本仍然可用，但建议等新版本。下载预览程序&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;pan.lanzoux.com&#x2F;b07rlv7gf&quot;&gt;下载例程(提取码f609)&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
