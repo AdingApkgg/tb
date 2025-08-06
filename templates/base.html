@@ -137,9 +137,7 @@
                 return;
               }
 
-              // 分词并支持单字符部分匹配
-              const terms = segmenter.segment(value).map((term) => term + "*"); // 添加通配符
-              const query = terms.join(" ");
+              const query = segmenter.segment(value).join(" ");
               console.log("Search query:", query);
               try {
                 const results = window.search(query, 10);
@@ -151,7 +149,7 @@
                 results.forEach(([title, url]) => {
                   const li = document.createElement("li");
                   const link = document.createElement("a");
-                  link.textContent = title; // 保留原始大小写
+                  link.textContent = title;
                   link.href = url;
                   li.appendChild(link);
                   resultsList.appendChild(li);
