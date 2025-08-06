@@ -7,6 +7,8 @@ default_language = "zh"
 
 compile_sass = true
 
+build_search_index = true
+
 minify_html = true
 
 generate_feeds = true
@@ -19,3 +21,6 @@ author = "Asuna"
 keywords = "图吧工具箱, 图拉丁吧, 硬件检测工具, 开源软件, 免费软件, 绿色软件, 纯净软件, DIY爱好者"
 site_name = "图吧工具"
 hero_tagline = "搞机佬的必备工具集"
+
+[search]
+index_format = "fuse_json"
