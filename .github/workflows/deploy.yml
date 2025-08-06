@@ -45,11 +45,10 @@ jobs:
         with:
           node-version: '22.x'
 
-      - name: Install terser and jieba-js
+      - name: Install terser and nodejieba
         run: |
           npm install -g terser
-          npm install jieba-js  # Install locally
-          npm install nodejieba  # Fallback for better Chinese tokenization
+          npm install nodejieba  # Use nodejieba for better Chinese tokenization
 
       - name: Install Zola
         run: |
@@ -70,16 +69,19 @@ jobs:
 
       - name: Preprocess JSON for Chinese
         run: |
-          echo "const fs = require('fs'); const jieba = require('nodejieba') || require('jieba-js'); const input = JSON.parse(fs.readFileSync('public/search_index.zh.json')); const output = input.map(item => ({ ...item, title: jieba.cut(item.title).join(' '), body: jieba.cut(item.body).join(' ') })); fs.writeFileSync('public/search_index_processed.json', JSON.stringify(output));" > preprocess.js
-          node preprocess.js
+          echo "const fs = require('fs'); const jieba = require('nodejieba'); const input = JSON.parse(fs.readFileSync('public/search_index.zh.json')); const output = input.map(item => ({ ...item, title: jieba.cut(item.title).join(' '), body: jieba.cut(item.body).join(' ') })); fs.writeFileSync('public/search_index_processed.json', JSON.stringify(output));" > preprocess.js
+          node preprocess.js || echo "Warning: JSON preprocessing failed, using original index"
           ls -la public/ # Verify output
-        continue-on-error: true  # Continue if preprocessing fails
+        continue-on-error: true
 
       - name: Build tinysearch
         run: |
-          cargo install tinysearch
+          cargo install tinysearch --features="bin"
+          export PATH="$HOME/.cargo/bin:$PATH"
           tinysearch --optimize --path public/wasm_output public/search_index_processed.json || tinysearch --optimize --path public/wasm_output public/search_index.zh.json
           ls -la public/wasm_output/ # Log output for debugging
+        env:
+          CARGO_NET_GIT_FETCH_WITH_CLI: true  # Ensure Cargo uses git CLI for fetching
 
       - name: Upload public directory as artifact
         uses: actions/upload-artifact@v4
