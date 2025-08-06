@@ -31,6 +31,23 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: 1.75.0  # Updated to a newer version
+          targets: wasm32-unknown-unknown
+
+      - name: Install wasm-pack
+        run: curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.x'  # Updated to a newer LTS version
+
+      - name: Install terser and jieba-js
+        run: npm install -g terser jieba-js
+
       - name: Install Zola
         run: |
           curl -sL https://github.com/getzola/zola/releases/download/v${ZOLA_VERSION}/zola-v${ZOLA_VERSION}-x86_64-unknown-linux-gnu.tar.gz | tar xz -C /usr/local/bin
@@ -46,15 +63,19 @@ jobs:
           fi
           ls -la public/ # Log contents for debugging
         env:
-          BASE_URL: ${{ secrets.BASE_URL || 'https://AdingApkgg.github.io/bbps' }}
+          BASE_URL: ${{ secrets.BASE_URL || 'https://AdingApkgg.github.io/tb' }}
+
+      - name: Preprocess JSON for Chinese
+        run: |
+          echo "const fs = require('fs'); const jieba = require('jieba-js'); const input = JSON.parse(fs.readFileSync('public/search_index.zh.json')); const output = input.map(item => ({ ...item, title: jieba.cut(item.title).join(' '), body: jieba.cut(item.body).join(' ') })); fs.writeFileSync('public/search_index_processed.json', JSON.stringify(output));" > preprocess.js
+          node preprocess.js
+          ls -la public/ # Verify output
 
       - name: Build tinysearch
-        uses: leonhfr/tinysearch-action@v1
-        with:
-          index: public/search_index.zh.json
-          output_dir: public/wasm_output
-          output_types: |
-            wasm
+        run: |
+          cargo install tinysearch
+          tinysearch --optimize --path public/wasm_output public/search_index_processed.json || { echo "Error: tinysearch build failed"; exit 1; }
+          ls -la public/wasm_output/ # Log output for debugging
 
       - name: Upload public directory as artifact
         uses: actions/upload-artifact@v4
@@ -87,7 +108,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Deploy to gh-pages branch
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4  # Updated to v4
         id: deployment
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
