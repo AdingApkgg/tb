@@ -41,6 +41,7 @@ jobs:
         run: |
           curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
           sudo apt-get update && sudo apt-get install -y binaryen
+          wasm-opt --version || { echo "wasm-opt installation failed"; exit 1; }
 
       - name: Install Node.js
         uses: actions/setup-node@v4
@@ -66,15 +67,16 @@ jobs:
             exit 1
           fi
           ls -la public/
-        env:
-          BASE_URL: ${{ secrets.BASE_URL || 'https://AdingApkgg.github.io/tb' }}
+          if [ ! -f "public/search_index.zh.json" ]; then
+            echo "Error: search_index.zh.json not found"
+            exit 1
+          fi
 
       - name: Preprocess JSON for Chinese
         run: |
-          echo "const fs = require('fs'); const jieba = require('nodejieba'); const input = JSON.parse(fs.readFileSync('public/search_index.zh.json')); const output = input.map(item => ({ ...item, title: jieba.cut(item.title).join(' '), body: jieba.cut(item.body).join(' ') })); fs.writeFileSync('public/search_index_processed.json', JSON.stringify(output));" > preprocess.js
-          node preprocess.js || echo "Warning: JSON preprocessing failed, using original index"
+          echo "const fs = require('fs'); const jieba = require('nodejieba'); const input = JSON.parse(fs.readFileSync('public/search_index.zh.json')); const output = input.map(item => ({ ...item, title: jieba.cut(item.title).join(' '), body: jieba.cut(item.body).join(' ') })); fs.writeFileSync('public/search_index_processed.json', JSON.stringify(output, null, 2));" > preprocess.js
+          node preprocess.js || { echo "Warning: JSON preprocessing failed, copying original index"; cp public/search_index.zh.json public/search_index_processed.json; }
           ls -la public/
-        continue-on-error: true
 
       - name: Build tinysearch
         run: |
@@ -82,8 +84,10 @@ jobs:
           export PATH="$HOME/.cargo/bin:$PATH"
           tinysearch --optimize --path public/wasm public/search_index_processed.json || tinysearch --optimize --path public/wasm public/search_index.zh.json
           ls -la public/wasm/
-        env:
-          CARGO_NET_GIT_FETCH_WITH_CLI: true
+          if [ ! -f "public/wasm/tinysearch_engine.js" ] || [ ! -f "public/wasm/tinysearch_engine_bg.wasm" ]; then
+            echo "Error: Tinysearch output files missing"
+            exit 1
+          fi
 
       - name: Upload public directory as artifact
         uses: actions/upload-artifact@v4
