@@ -94,81 +94,79 @@
       <ul id="results"></ul>
       <script src="https://unpkg.com/tiny-segmenter/dist/tiny-segmenter-0.2.0.js"></script>
       <script type="module">
-        import { search, default as init } from "/wasm/tinysearch_engine.js";
-        window.search = search;
+    import { search, default as init } from '/wasm/tinysearch_engine.js';
+    window.search = search;
 
-        async function initSearch() {
-          try {
-            // 预加载 JSON 数据
-            const response = await fetch("/search_index_processed.json");
-            if (!response.ok)
-              throw new Error(`Failed to load JSON: ${response.status}`);
-            const jsonData = await response.json();
-            console.log("JSON loaded:", jsonData);
-            // 使用对象参数初始化
-            await init({ path: "/wasm/tinysearch_engine_bg.wasm" });
-            console.log("Tinysearch initialized successfully");
-          } catch (error) {
-            console.error("Failed to initialize Tinysearch:", error);
-            const searchInput = document.getElementById("search");
-            const resultsList = document.getElementById("results");
-            if (searchInput && resultsList) {
-              searchInput.disabled = true;
-              resultsList.innerHTML = "<li>搜索功能加载失败，请稍后重试</li>";
-            }
-          }
+    async function initSearch() {
+      try {
+        const response = await fetch('/search_index_processed.json');
+        if (!response.ok) throw new Error(`Failed to load JSON: ${response.status}`);
+        const jsonData = await response.json();
+        console.log('JSON loaded:', jsonData);
+        await init({ path: '/wasm/tinysearch_engine_bg.wasm' });
+        console.log('Tinysearch initialized successfully');
+      } catch (error) {
+        console.error('Failed to initialize Tinysearch:', error);
+        const searchInput = document.getElementById('search');
+        const resultsList = document.getElementById('results');
+        if (searchInput && resultsList) {
+          searchInput.disabled = true;
+          resultsList.innerHTML = '<li>搜索功能加载失败，请稍后重试</li>';
         }
-        initSearch();
-      </script>
-      <script>
-        document.addEventListener("DOMContentLoaded", () => {
-          const segmenter = new TinySegmenter();
-          const searchInput = document.getElementById("search");
-          const resultsList = document.getElementById("results");
+      }
+    }
+    initSearch();
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const segmenter = new TinySegmenter();
+      const searchInput = document.getElementById('search');
+      const resultsList = document.getElementById('results');
 
-          if (!searchInput || !resultsList) {
-            console.error("Search input or results list not found");
+      if (!searchInput || !resultsList) {
+        console.error('Search input or results list not found');
+        return;
+      }
+
+      function doSearch() {
+        const value = searchInput.value.trim().toLowerCase();
+        if (!value) {
+          resultsList.innerHTML = '';
+          return;
+        }
+
+        // TinySegmenter 保留 CPU 完整
+        const query = segmenter.segment(value).join(' ');
+        console.log('Search query:', query);
+        try {
+          const results = window.search(query, 10);
+          resultsList.innerHTML = '';
+          if (results.length === 0) {
+            resultsList.innerHTML = '<li>未找到匹配结果</li>';
             return;
           }
-
-          function doSearch() {
-            const value = searchInput.value.trim();
-            if (!value) {
-              resultsList.innerHTML = "";
-              return;
-            }
-
-            const query = segmenter.segment(value).join(" ");
-            console.log("Search query:", query);
-            try {
-              const results = window.search(query, 10);
-              resultsList.innerHTML = "";
-              if (results.length === 0) {
-                resultsList.innerHTML = "<li>未找到匹配结果</li>";
-                return;
-              }
-              results.forEach(([title, url]) => {
-                const li = document.createElement("li");
-                const link = document.createElement("a");
-                link.textContent = title;
-                link.href = url;
-                li.appendChild(link);
-                resultsList.appendChild(li);
-              });
-              resultsList.classList.add("animate__animated", "animate__fadeIn");
-            } catch (error) {
-              console.error("Search error:", error);
-              resultsList.innerHTML = "<li>搜索出错，请稍后重试</li>";
-            }
-          }
-
-          let debounceTimer;
-          searchInput.addEventListener("input", () => {
-            clearTimeout(debounceTimer);
-            debounceTimer = setTimeout(doSearch, 300);
+          results.forEach(([title, url]) => {
+            const li = document.createElement('li');
+            const link = document.createElement('a');
+            link.textContent = title;
+            link.href = url;
+            li.appendChild(link);
+            resultsList.appendChild(li);
           });
-        });
-      </script>
+          resultsList.classList.add('animate__animated', 'animate__fadeIn');
+        } catch (error) {
+          console.error('Search error:', error);
+          resultsList.innerHTML = '<li>搜索出错，请稍后重试</li>';
+        }
+      }
+
+      let debounceTimer;
+      searchInput.addEventListener('input', () => {
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(doSearch, 300);
+      });
+    });
+  </script>
       <turbo-frame>
         <p>
           访问：<span id="busuanzi_value_site_pv">null</span>，访客：<span

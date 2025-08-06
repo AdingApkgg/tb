@@ -48,10 +48,9 @@ jobs:
         with:
           node-version: "24.x"
 
-      - name: Install terser and nodejieba
+      - name: Install terser
         run: |
           npm install -g terser
-          npm install nodejieba
 
       - name: Install Zola
         run: |
@@ -71,12 +70,14 @@ jobs:
             echo "Error: search_index.zh.json not found"
             exit 1
           fi
+          cat public/search_index.zh.json
 
       - name: Preprocess JSON for Chinese
         run: |
-          echo "const fs = require('fs'); const jieba = require('nodejieba'); const input = JSON.parse(fs.readFileSync('public/search_index.zh.json')); const output = input.map(item => ({ ...item, title: jieba.cut(item.title).join(' '), body: jieba.cut(item.body).join(' ') })); fs.writeFileSync('public/search_index_processed.json', JSON.stringify(output, null, 2));" > preprocess.js
+          echo "const fs = require('fs'); const input = JSON.parse(fs.readFileSync('public/search_index.zh.json')); const output = input.map(item => ({ ...item, title: item.title.toLowerCase(), body: item.body.toLowerCase() })); fs.writeFileSync('public/search_index_processed.json', JSON.stringify(output, null, 2));" > preprocess.js
           node preprocess.js || { echo "Warning: JSON preprocessing failed, copying original index"; cp public/search_index.zh.json public/search_index_processed.json; }
           ls -la public/
+          cat public/search_index_processed.json
 
       - name: Build tinysearch
         run: |
