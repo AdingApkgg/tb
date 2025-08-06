@@ -74,7 +74,7 @@ jobs:
 
       - name: Preprocess JSON for Chinese
         run: |
-          echo "const fs = require('fs'); const input = JSON.parse(fs.readFileSync('public/search_index.zh.json')); const output = input.map(item => ({ ...item, title: item.title.toLowerCase(), body: item.body.toLowerCase() })); fs.writeFileSync('public/search_index_processed.json', JSON.stringify(output, null, 2));" > preprocess.js
+          echo "const fs = require('fs'); const input = JSON.parse(fs.readFileSync('public/search_index.zh.json')); const output = input.map(item => ({ ...item, title: item.title, body: item.body })); fs.writeFileSync('public/search_index_processed.json', JSON.stringify(output, null, 2));" > preprocess.js
           node preprocess.js || { echo "Warning: JSON preprocessing failed, copying original index"; cp public/search_index.zh.json public/search_index_processed.json; }
           ls -la public/
           cat public/search_index_processed.json
