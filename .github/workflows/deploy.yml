@@ -45,7 +45,7 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '24.x'
+          node-version: "24.x"
 
       - name: Install terser and nodejieba
         run: |
@@ -80,8 +80,8 @@ jobs:
         run: |
           cargo install tinysearch --features="bin"
           export PATH="$HOME/.cargo/bin:$PATH"
-          tinysearch --optimize --path public/wasm_output public/search_index_processed.json || tinysearch --optimize --path public/wasm_output public/search_index.zh.json
-          ls -la public/wasm_output/
+          tinysearch --optimize --path public/wasm public/search_index_processed.json || tinysearch --optimize --path public/wasm public/search_index.zh.json
+          ls -la public/wasm/
         env:
           CARGO_NET_GIT_FETCH_WITH_CLI: true
 
