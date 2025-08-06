@@ -37,18 +37,20 @@ jobs:
           toolchain: 1.75.0
           targets: wasm32-unknown-unknown
 
-      - name: Install wasm-pack
-        run: curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
+      - name: Install wasm-pack and binaryen
+        run: |
+          curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
+          sudo apt-get update && sudo apt-get install -y binaryen
 
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22.x'
+          node-version: '24.x'
 
       - name: Install terser and nodejieba
         run: |
           npm install -g terser
-          npm install nodejieba  # Use nodejieba for better Chinese tokenization
+          npm install nodejieba
 
       - name: Install Zola
         run: |
@@ -63,7 +65,7 @@ jobs:
             ls -la
             exit 1
           fi
-          ls -la public/ # Log contents for debugging
+          ls -la public/
         env:
           BASE_URL: ${{ secrets.BASE_URL || 'https://AdingApkgg.github.io/tb' }}
 
@@ -71,7 +73,7 @@ jobs:
         run: |
           echo "const fs = require('fs'); const jieba = require('nodejieba'); const input = JSON.parse(fs.readFileSync('public/search_index.zh.json')); const output = input.map(item => ({ ...item, title: jieba.cut(item.title).join(' '), body: jieba.cut(item.body).join(' ') })); fs.writeFileSync('public/search_index_processed.json', JSON.stringify(output));" > preprocess.js
           node preprocess.js || echo "Warning: JSON preprocessing failed, using original index"
-          ls -la public/ # Verify output
+          ls -la public/
         continue-on-error: true
 
       - name: Build tinysearch
@@ -79,9 +81,9 @@ jobs:
           cargo install tinysearch --features="bin"
           export PATH="$HOME/.cargo/bin:$PATH"
           tinysearch --optimize --path public/wasm_output public/search_index_processed.json || tinysearch --optimize --path public/wasm_output public/search_index.zh.json
-          ls -la public/wasm_output/ # Log output for debugging
+          ls -la public/wasm_output/
         env:
-          CARGO_NET_GIT_FETCH_WITH_CLI: true  # Ensure Cargo uses git CLI for fetching
+          CARGO_NET_GIT_FETCH_WITH_CLI: true
 
       - name: Upload public directory as artifact
         uses: actions/upload-artifact@v4
