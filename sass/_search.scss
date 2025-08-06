@@ -1,0 +1,22 @@
+#search {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+#results {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+#results li {
+  margin: 5px 0;
+}
+#results a {
+  text-decoration: none;
+  color: #1a73e8;
+}
+#results a:hover {
+  text-decoration: underline;
+}
