@@ -4,11 +4,11 @@
 }
 
 header {
-  padding: 2rem 3rem;
+  padding: 1.6em 2em;
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
-  column-gap: 2rem;
+  align-items: center;
+  column-gap: 2em;
 
   // Container is reused elsewhere, so this must be declared here
   nav {
@@ -16,8 +16,8 @@ header {
     flex-grow: 1;
     flex-wrap: wrap;
     align-items: baseline;
-    justify-content: center;
-    gap: 1rem 2rem;
+    justify-content: right;
+    gap: 1em 1em;
     margin: 0;
   }
 }
@@ -29,9 +29,13 @@ header {
 
 @media only screen and (max-width: 1000px) {
   header {
-    max-width: 90%;
-    margin-inline: auto;
-    justify-content: center;
+    margin: 1em 1em;
+    display: inline-block;
+
+    nav {
+      float: right;
+      line-height: 3.2;
+    }
   }
 }
 
@@ -84,7 +88,7 @@ td {
 
 @media (max-width: 960px) {
   .content {
-    padding: 1.2em 1.6em;
+    padding: 0 1em;
   }
 }
 

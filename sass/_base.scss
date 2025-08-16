@@ -57,7 +57,6 @@ a {
     border-radius: 4px;
     font-size: 15px;
     font-weight: 600;
-    text-transform: uppercase;
     letter-spacing: 0.025em;
     color: #191919;
     text-decoration: none;
@@ -74,6 +73,15 @@ a {
     &:active {
       background-color: #f6f9fc;
       transform: translateY(1px);
+    }
+  }
+
+  &.hero__download {
+    background: $primary-color;
+    color: $foreground;
+
+    &:active {
+      background-color: darken($primary-color, 5%);
     }
   }
 

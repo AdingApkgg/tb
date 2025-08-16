@@ -1,4 +1,4 @@
 {% extends "base.html" %} {% block content %}
-<h1 class="title">{% block title %}{{ page.title }}{% endblock title %}</h1>
+<h1 class="title"><i class="fas fa-hashtag"></i>&nbsp;{% block title %}{{ page.title }}{% endblock title %}</h1>
 <p class="subtitle"><strong>{{ page.date }}</strong></p>
 {{ page.content | safe }} {% endblock content %}
