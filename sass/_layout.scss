@@ -29,11 +29,11 @@ header {
 
 @media only screen and (max-width: 1000px) {
   header {
-    margin: 1em 1em;
     display: inline-block;
 
     nav {
       float: right;
+      padding: 0 0.6em;
       line-height: 3.2;
     }
   }
