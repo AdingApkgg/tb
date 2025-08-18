@@ -66,25 +66,25 @@ jobs:
             exit 1
           fi
           ls -la public/
-          if [ ! -f "public/search_index.zh.json" ]; then
-            echo "Error: search_index.zh.json not found"
+          if [ ! -f "public/tinysearch.json/index.html" ]; then
+            echo "Error: tinysearch.json/index.html not found"
             exit 1
           fi
-          cat public/search_index.zh.json
+          cat public/tinysearch.json/index.html
 
       - name: Preprocess JSON for Chinese
         run: |
-          echo "const fs = require('fs'); const input = JSON.parse(fs.readFileSync('public/search_index.zh.json')); const output = input.map(item => ({ ...item, title: item.title, body: item.body })); fs.writeFileSync('public/search_index_processed.json', JSON.stringify(output, null, 2));" > preprocess.js
-          node preprocess.js || { echo "Warning: JSON preprocessing failed, copying original index"; cp public/search_index.zh.json public/search_index_processed.json; }
+          echo "const fs = require('fs'); const input = JSON.parse(fs.readFileSync('public/tinysearch.json/index.html')); const output = input.map(item => ({ ...item, title: item.title, body: item.body })); fs.writeFileSync('public/tinysearch_processed.json', JSON.stringify(output, null, 2));" > preprocess.js
+          node preprocess.js || { echo "Warning: JSON preprocessing failed, copying original index"; cp public/tinysearch.json/index.html public/tinysearch_processed.json; }
           ls -la public/
-          cat public/search_index_processed.json
+          cat public/tinysearch_processed.json
 
       - name: Build tinysearch
         run: |
           cargo install tinysearch --features="bin"
           export PATH="$HOME/.cargo/bin:$PATH"
           tinysearch --version || { echo "Tinysearch installation failed"; exit 1; }
-          tinysearch --optimize --path public/wasm public/search_index_processed.json || { echo "Primary tinysearch command failed, trying fallback"; tinysearch --optimize --path public/wasm public/search_index.zh.json; }
+          tinysearch --optimize --path public/wasm public/tinysearch_processed.json || { echo "Primary tinysearch command failed, trying fallback"; tinysearch --optimize --path public/wasm public/tinysearch.json/index.html; }
           ls -la public/wasm/
           file public/wasm/tinysearch_engine.wasm || echo "tinysearch_engine.wasm not found"
           file public/wasm/tinysearch_engine.js || echo "tinysearch_engine.js not found"
