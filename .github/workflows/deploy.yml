@@ -83,9 +83,12 @@ jobs:
         run: |
           cargo install tinysearch --features="bin"
           export PATH="$HOME/.cargo/bin:$PATH"
-          tinysearch --optimize --path public/wasm public/search_index_processed.json || tinysearch --optimize --path public/wasm public/search_index.zh.json
+          tinysearch --version || { echo "Tinysearch installation failed"; exit 1; }
+          tinysearch --optimize --path public/wasm public/search_index_processed.json || { echo "Primary tinysearch command failed, trying fallback"; tinysearch --optimize --path public/wasm public/search_index.zh.json; }
           ls -la public/wasm/
-          if [ ! -f "public/wasm/tinysearch_engine.js" ] || [ ! -f "public/wasm/tinysearch_engine_bg.wasm" ]; then
+          file public/wasm/tinysearch_engine.wasm || echo "tinysearch_engine.wasm not found"
+          file public/wasm/tinysearch_engine.js || echo "tinysearch_engine.js not found"
+          if [ ! -f "public/wasm/tinysearch_engine.js" ] || [ ! -f "public/wasm/tinysearch_engine.wasm" ]; then
             echo "Error: Tinysearch output files missing"
             exit 1
           fi
