@@ -1,4 +1,4 @@
-# 图吧工具站
+# 图吧工具
 
 ```sh
 pacman -S zola
