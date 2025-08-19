@@ -1,28 +1,118 @@
-.search__content.container {
+// static/css/search.scss
+$primary-color: #007bff;
+$background-light: #ffffff;
+$background-dark: #1e1e1e;
+$text-light: #333;
+$text-dark: #d1d5db;
+$border-color: #e2e8f0;
+$preview-color: #6b7280;
+
+.search__content {
   max-width: 800px;
   margin: 0 auto;
+  padding: 1.5rem;
+
+  input#search-input {
+    width: 100%;
+    padding: 0.8rem 1.2rem;
+    font-size: 1.1rem;
+    border: 1px solid $border-color;
+    border-radius: 10px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+    &:focus {
+      border-color: $primary-color;
+      box-shadow: 0 0 0 4px rgba($primary-color, 0.15);
+    }
+
+    &::placeholder {
+      color: $preview-color;
+    }
+  }
+
+  ul#search-results {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+
+    li {
+      padding: 0.75rem 0;
+      border-bottom: 1px solid $border-color;
+      transition: background 0.2s ease;
+
+      &:hover {
+        background: rgba($primary-color, 0.05);
+      }
+
+      a {
+        color: $primary-color;
+        text-decoration: none;
+        font-size: 1.1rem;
+        font-weight: 600;
+        display: block;
+        margin-bottom: 0.3rem;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      small {
+        color: $preview-color;
+        font-size: 0.9rem;
+        line-height: 1.4;
+        display: block;
+        max-width: 90%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+
+  .no-results {
+    color: $preview-color;
+    font-size: 1rem;
+    text-align: center;
+    margin: 1.5rem 0;
+    &.hidden {
+      display: none;
+    }
+  }
 }
-#search {
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-bottom: 20px;
-}
-#results {
-  list-style: none;
-  padding: 0;
-  text-align: left;
-}
-#results li {
-  margin: 10px 0;
-}
-#results li a {
-  text-decoration: none;
-  color: #007bff;
-  font-size: 1.1em;
-}
-#results li a:hover {
-  text-decoration: underline;
+
+@media (prefers-color-scheme: dark) {
+  .search__content {
+    input#search-input {
+      background: $background-dark;
+      color: $text-dark;
+      border-color: darken($border-color, 20%);
+
+      &::placeholder {
+        color: lighten($preview-color, 10%);
+      }
+    }
+
+    ul#search-results {
+      li {
+        border-color: darken($border-color, 20%);
+
+        a {
+          color: lighten($primary-color, 10%);
+        }
+
+        small {
+          color: lighten($preview-color, 10%);
+        }
+
+        &:hover {
+          background: rgba($primary-color, 0.1);
+        }
+      }
+
+      .no-results {
+        color: lighten($preview-color, 10%);
+      }
+    }
+  }
 }
