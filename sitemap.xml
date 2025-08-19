@@ -55,10 +55,6 @@
         <loc>https://tb.saop.cc/search/</loc>
     </url>
     <url>
-        <loc>https://tb.saop.cc/tinysearch.json/</loc>
-        <lastmod>2025-01-01</lastmod>
-    </url>
-    <url>
         <loc>https://tb.saop.cc/update/</loc>
         <lastmod>2025-06-12</lastmod>
     </url>
