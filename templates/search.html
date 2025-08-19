@@ -20,7 +20,7 @@
         throw new Error(`Failed to load JSON: ${response.status}`);
       const jsonData = await response.json();
       console.log("JSON loaded:", jsonData);
-      await init({ path: "/wasm/tinysearch_engine_bg.wasm" });
+      await init({ path: "/wasm/tinysearch_engine.wasm" });
       console.log("Tinysearch initialized successfully");
     } catch (error) {
       console.error("Failed to initialize Tinysearch:", error);
