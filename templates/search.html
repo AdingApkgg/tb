@@ -3,8 +3,9 @@
   <h1 class="title">搜索</h1>
   <p class="hero__tagline">在 {{ config.title }} 中查找您需要的内容</p>
   <div class="search__content container">
-    <input type="text" id="search" placeholder="输入搜索关键词..." />
+    <input type="text" id="search" placeholder="输入搜索关键词..." disabled />
     <ul id="results"></ul>
+    <div id="status" class="status">加载搜索功能...</div>
   </div>
 </div>
 
@@ -16,19 +17,32 @@
   async function initSearch() {
     try {
       const response = await fetch("/search_index_processed.json");
-      if (!response.ok)
-        throw new Error(`Failed to load JSON: ${response.status}`);
+      if (!response.ok) {
+        throw new Error(`无法加载搜索索引: ${response.status}`);
+      }
       const jsonData = await response.json();
-      console.log("JSON loaded:", jsonData);
+      if (
+        !Array.isArray(jsonData) ||
+        !jsonData.every((item) => item.title && item.url)
+      ) {
+        throw new Error("搜索索引格式错误: 缺少 title 或 url 字段");
+      }
+      console.log("搜索索引加载成功:", jsonData.length, "条目");
       await init({ path: "/wasm/tinysearch_engine.wasm" });
-      console.log("Tinysearch initialized successfully");
+      console.log("Tinysearch 初始化成功");
+      document.getElementById("status").textContent =
+        "搜索功能已就绪！请输入关键词进行搜索。";
+      document.getElementById("search").disabled = false;
+      document.getElementById("search").focus();
     } catch (error) {
-      console.error("Failed to initialize Tinysearch:", error);
+      console.error("初始化 Tinysearch 失败:", error);
       const searchInput = document.getElementById("search");
       const resultsList = document.getElementById("results");
-      if (searchInput && resultsList) {
+      const statusDiv = document.getElementById("status");
+      if (searchInput && resultsList && statusDiv) {
         searchInput.disabled = true;
         resultsList.innerHTML = "<li>搜索功能加载失败，请稍后重试</li>";
+        statusDiv.innerHTML = `<div class="error">加载失败: ${error.message}</div>`;
       }
     }
   }
@@ -39,41 +53,56 @@
     const segmenter = new TinySegmenter();
     const searchInput = document.getElementById("search");
     const resultsList = document.getElementById("results");
+    const statusDiv = document.getElementById("status");
 
-    if (!searchInput || !resultsList) {
-      console.error("Search input or results list not found");
+    if (!searchInput || !resultsList || !statusDiv) {
+      console.error("未找到搜索输入框、结果列表或状态栏");
+      statusDiv.innerHTML = "<div class='error'>页面元素加载失败</div>";
       return;
     }
 
     function doSearch() {
       const value = searchInput.value.trim();
+      resultsList.innerHTML = "";
       if (!value) {
-        resultsList.innerHTML = "";
+        statusDiv.textContent = "请输入搜索关键词";
         return;
       }
 
+      const startTime = performance.now();
       const query = segmenter.segment(value).join(" ");
-      console.log("Search query:", query);
+      console.log("搜索关键词:", query);
       try {
         const results = window.search(query, 10);
-        resultsList.innerHTML = "";
+        const endTime = performance.now();
+        const searchTime = (endTime - startTime).toFixed(3);
+
+        if (!Array.isArray(results)) {
+          throw new Error("搜索结果格式错误");
+        }
+
         if (results.length === 0) {
           resultsList.innerHTML = "<li>未找到匹配结果</li>";
+          statusDiv.textContent = `未找到 "${query}" 的结果 (${searchTime}ms)`;
           return;
         }
+
         results.forEach(([title, url]) => {
           const li = document.createElement("li");
           const link = document.createElement("a");
           link.textContent = title;
           link.href = url;
           link.target = "_blank";
+          link.className = "result-title";
           li.appendChild(link);
           resultsList.appendChild(li);
         });
         resultsList.classList.add("animate__animated", "animate__fadeIn");
+        statusDiv.textContent = `找到 ${results.length} 个结果，关键词 "${query}" (${searchTime}ms)`;
       } catch (error) {
-        console.error("Search error:", error);
+        console.error("搜索错误:", error);
         resultsList.innerHTML = "<li>搜索出错，请稍后重试</li>";
+        statusDiv.innerHTML = `<div class="error">搜索失败: ${error.message}</div>`;
       }
     }
 
@@ -82,6 +111,67 @@
       clearTimeout(debounceTimer);
       debounceTimer = setTimeout(doSearch, 300);
     });
+
+    searchInput.addEventListener("keypress", (event) => {
+      if (event.key === "Enter") {
+        clearTimeout(debounceTimer);
+        doSearch();
+      }
+    });
   });
 </script>
+
+<style>
+  .container {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .search__content {
+    margin: 20px 0;
+  }
+
+  input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #e1e8ed;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  .results {
+    margin-top: 20px;
+  }
+
+  .result-title {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .result-title:hover {
+    text-decoration: underline;
+  }
+
+  .no-results {
+    color: #7f8c8d;
+    font-style: italic;
+  }
+
+  .status {
+    color: #7f8c8d;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .error {
+    color: #e74c3c;
+    background: #fdf2f2;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+</style>
 {% endblock content %}
