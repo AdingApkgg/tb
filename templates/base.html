@@ -21,7 +21,7 @@
       content="{{ resolved_description | safe }}"
     />
     <meta property="og:image" content="/favicon.ico" />
-    <meta property="og:url" content="https://tb.saop.cc/" />
+    <meta property="og:url" content="{{ config.base_url }}" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="{{ config.extra.site_name }}" />
     <meta property="og:locale" content="{{ config.default_language }}" />
@@ -173,7 +173,7 @@
       quicklink.listen({ priority: true });
       Artalk.init({
         el: "#Comments",
-        pageKey: "https://tb.saop.cc",
+        pageKey: "{{ config.base_url }}",
         server: "https://artalk.saop.cc",
         site: "图吧工具",
         darkMode: true,

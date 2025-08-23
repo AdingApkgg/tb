@@ -3,18 +3,32 @@
   <img src="/img/hardinfo-kb.avif" alt="hardinfo" loading="lazy" />
   <h1 class="title">{% block title %}{{ page.title }}{% endblock title %}</h1>
   <p class="hero__tagline">{{ page.extra.hero_tagline }}</p>
+  <h2>主线下载</h2>
   <p>
     <a
       class="button hero__download"
-      href="{{ config.extra.dl_url }}kb.exe"
+      href="{{ config.extra.dl_url }}kaying_tools_V2.98_setup.exe"
       ><i class="fas fa-download"></i>&nbsp;立即下载 .exe</a
     >&nbsp;<a
       class="button"
-      href="{{ config.extra.dl_url }}kb.7z"
+      href="{{ config.extra.dl_url }}kaying_tools_V2.98.7z"
       ><i class="fas fa-download"></i>&nbsp;绿色下载 .7z</a
     >
-    <p>灵活易用 & 绿色纯净 & 免费使用</p>
   </p>
+  <p>如下载慢或失败，请尝试备线下载。</p>
+  <h2>备线下载</h2>
+  <p>
+    <a
+      class="button hero__download"
+      href="{{ config.extra.dl_url_backup }}kb.exe"
+      ><i class="fas fa-download"></i>&nbsp;立即下载 .exe</a
+    >&nbsp;<a
+      class="button"
+      href="{{ config.extra.dl_url_backup }}kb.7z"
+      ><i class="fas fa-download"></i>&nbsp;绿色下载 .7z</a
+    >
+  </p>
+  <p>灵活易用 & 绿色纯净 & 免费使用</p>
   <div class="selling-points__content container">
     <p>
       {{ page.description }}

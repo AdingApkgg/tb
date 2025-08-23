@@ -3,14 +3,28 @@
   <img src="/img/hardinfo.avif" alt="hardinfo" loading="lazy" />
   <h1 class="title">{% block title %}{{ config.title }}{% endblock title %}</h1>
   <p class="hero__tagline">{{ config.extra.hero_tagline }}</p>
+  <h2>主线下载</h2>
   <p>
     <a
       class="button hero__download"
-      href="{{ config.extra.dl_url }}tb.exe"
+      href="{{ config.extra.dl_url }}%E5%9B%BE%E5%90%A7%E5%B7%A5%E5%85%B7%E7%AE%B12025.07%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F.exe"
       ><i class="fas fa-download"></i>&nbsp;立即下载 .exe</a
     >&nbsp;<a
       class="button"
-      href="{{ config.extra.dl_url }}tb.rar"
+      href="{{ config.extra.dl_url }}%E5%9B%BE%E5%90%A7%E5%B7%A5%E5%85%B7%E7%AE%B1202507.rar"
+      ><i class="fas fa-download"></i>&nbsp;绿色下载 .rar</a
+    >
+  </p>
+  <p>如下载慢或失败，请尝试备线下载。</p>
+  <h2>备线下载</h2>
+  <p>
+    <a
+      class="button hero__download"
+      href="{{ config.extra.dl_url_backup }}tb.exe"
+      ><i class="fas fa-download"></i>&nbsp;立即下载 .exe</a
+    >&nbsp;<a
+      class="button"
+      href="{{ config.extra.dl_url_backup }}tb.rar"
       ><i class="fas fa-download"></i>&nbsp;绿色下载 .rar</a
     >
   </p>
