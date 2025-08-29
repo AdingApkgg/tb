@@ -8,6 +8,11 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 30vh;
+}
+
 $primary-color: #7331cd;
 $background: #19191970;
 $foreground: white;
