@@ -1,23 +1,6 @@
 {% extends "base.html" %} {% block content %}
-<link rel="stylesheet" href="https://registry.npmmirror.com/artalk/latest/files/dist/Artalk.css" fetchpriority="low" />
-<link rel="stylesheet" href="https://registry.npmmirror.com/lightgallery/latest/files/css/lightgallery.css"
-    fetchpriority="low" />
 <div class="hero">
     <h1 class="title">{% block title %}{{ page.title }}{% endblock title %}</h1>
     {{ page.content | safe }}
 </div>
-<div id="Comments" data-turbo-temporary></div>
-<script src="https://registry.npmmirror.com/lightgallery/latest/files/lightgallery.min.js" fetchpriority="low"></script>
-<script src="https://registry.npmmirror.com/artalk/latest/files/dist/Artalk.js" fetchpriority="low"></script>
-<script src="https://registry.npmmirror.com/@artalk/plugin-lightbox/latest/files/dist/artalk-plugin-lightbox.js"
-    fetchpriority="low"></script>
-<script data-turbo-eval="false">
-    Artalk.init({
-        el: "#Comments",
-        pageKey: "https://tb.saop.cc",
-        server: "https://artalk.saop.cc",
-        site: "图吧工具",
-        darkMode: true,
-    });
-</script>
 {% endblock content %}

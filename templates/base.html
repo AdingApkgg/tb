@@ -5,7 +5,7 @@
   <meta name="generator" content="Zola" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  {% if page.extra.turbo is defined and page.extra.turbo == "false" %}
+  {% if page.extra.comments is defined and page.extra.comments == "true" %}
   <meta name="turbo-visit-control" content="reload">
   {% endif %}
   <link rel="preconnect" href="https://registry.npmmirror.com/" crossorigin />
@@ -64,7 +64,40 @@
     </nav>
   </header>
   <main class="content animate__animated animate__fadeIn">
-    <turbo-frame>{% block content %} {% endblock content %}</turbo-frame>
+    {% block content %} {% endblock content %}
+    {% if page.extra.comments is defined and page.extra.comments == "true" %}
+    <link rel="stylesheet" href="https://registry.npmmirror.com/artalk/latest/files/dist/Artalk.css"
+      fetchpriority="low" />
+    <link rel="stylesheet" href="https://registry.npmmirror.com/lightgallery/latest/files/css/lightgallery.css"
+      fetchpriority="low" />
+    <div id="Comments" data-turbo-temporary></div>
+    <script defer src="https://registry.npmmirror.com/lightgallery/latest/files/lightgallery.min.js"
+      fetchpriority="low"></script>
+    <script defer src="https://registry.npmmirror.com/artalk/latest/files/dist/Artalk.js" fetchpriority="low"></script>
+    <script defer
+      src="https://registry.npmmirror.com/@artalk/plugin-lightbox/latest/files/dist/artalk-plugin-lightbox.js"
+      fetchpriority="low"></script>
+    <script data-turbo-eval="false">
+      function initArtalk() {
+        // 如果Artalk已存在，先销毁
+        if (window.artalk) {
+          window.artalk.destroy();
+        }
+        // 初始化Artalk
+        window.artalk = Artalk.init({
+          el: "#Comments",
+          pageKey: "https://tb.saop.cc", // 动态使用Zola的页面链接
+          server: "https://artalk.saop.cc",
+          site: "图吧工具",
+          darkMode: true,
+        });
+      }
+      // Turbo页面加载完成后初始化
+      document.addEventListener("turbo:load", initArtalk);
+      // 首次加载时也初始化
+      document.addEventListener("DOMContentLoaded", initArtalk);
+    </script>
+    {% endif %}
   </main>
   <footer>
     <turbo-frame>

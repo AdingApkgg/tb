@@ -3,7 +3,7 @@ title = "薇尔莉特·伊芙加登の留言板"
 url = "/comments/"
 template = "comments.html"
 [extra]
-turbo = "false"
+comments = "true"
 +++
 
 ![violet](https://tuchuang.voooe.cn/images/2023/01/02/violet.webp)
