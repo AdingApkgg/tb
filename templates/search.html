@@ -50,19 +50,17 @@
           results.innerHTML =
             searchResults.length > 0
               ? searchResults
-                  .map(
-                    (result) => `
+                .map(
+                  (result) => `
               <li>
-                <a target="_blank" href="${result.item.url}">${
-                      result.item.title
+                <a href="${result.item.url}">${result.item.title
                     }</a>
-                <small>${result.item.body.slice(0, 100)}${
-                      result.item.body.length > 100 ? "..." : ""
+                <small>${result.item.body.slice(0, 100)}${result.item.body.length > 100 ? "..." : ""
                     }</small>
               </li>
             `
-                  )
-                  .join("")
+                )
+                .join("")
               : "";
           noResults.classList.toggle("hidden", searchResults.length > 0);
         }, 300)

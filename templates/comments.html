@@ -1,0 +1,6 @@
+{% extends "base.html" %} {% block content %}
+<div class="hero">
+    <h1 class="title">{% block title %}{{ page.title }}{% endblock title %}</h1>
+    {{ page.content | safe }}
+</div>
+{% endblock content %}
