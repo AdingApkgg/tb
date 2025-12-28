@@ -6,7 +6,7 @@ template = "comments.html"
 comments = "true"
 +++
 
-![violet](https://tuchuang.voooe.cn/images/2023/01/02/violet.webp)
+![violet](https://npm.elemecdn.com/hexo-butterfly-envelope/lib/violet.jpg)
 
 来自 **薇尔莉特** 的留言：
 
