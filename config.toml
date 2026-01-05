@@ -21,7 +21,7 @@ author = "Asuna"
 keywords = "图吧工具箱, 图拉丁吧, 硬件检测工具, 开源软件, 免费软件, 绿色软件, 纯净软件, DIY爱好者"
 site_name = "图吧工具"
 hero_tagline = "搞机佬的必备工具集"
-dl_url = "https://disk.saop.cc/d/"
+dl_url = "https://disk.saop.cc/d/%E5%9B%BE%E5%90%A7/"
 dl_url_backup = "https://gh-proxy.com/https://github.com/AdingApkgg/tb/releases/latest/download/"
 
 [search]
