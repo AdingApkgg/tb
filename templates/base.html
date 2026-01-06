@@ -31,33 +31,23 @@
       href="{{ config.base_url }}/rss.xml"
       title="{{ config.title }}"
     />
-    <link
-      rel="stylesheet"
-      href="{{ get_url(path='site.css') }}"
-      fetchpriority="high"
-    />
+    <link rel="stylesheet" href="{{ get_url(path='site.css') }}" />
     <link
       rel="stylesheet"
       href="https://registry.npmmirror.com/@fortawesome/fontawesome-free/latest/files/css/all.min.css"
-      fetchpriority="high"
     />
     <script
       type="module"
       src="https://registry.npmmirror.com/instant.page/latest/files/instantpage.js"
     ></script>
-    <script
-      src="https://registry.npmmirror.com/quicklink/latest/files/dist/quicklink.umd.js"
-      importance="high"
-    ></script>
+    <script src="https://registry.npmmirror.com/quicklink/latest/files/dist/quicklink.umd.js"></script>
     <script
       async
       src="https://registry.npmmirror.com/pace-js/latest/files/pace.min.js"
-      importance="high"
     ></script>
     <link
       rel="stylesheet"
       href="https://registry.npmmirror.com/pace-js/latest/files/themes/blue/pace-theme-flash.css"
-      importance="high"
     />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   </head>
@@ -65,7 +55,7 @@
   <body>
     <header>
       <a class="header__logo white" href="/"
-        ><img src="/favicon.ico" alt="logo" loading="lazy"
+        ><img src="/favicon.ico" alt="logo"
       /></a>
       <nav>
         <ul>
@@ -159,7 +149,6 @@
     <script
       async
       src="https://registry.npmmirror.com/js-asuna/latest/files/js/bsz.pure.mini.js"
-      fetchpriority="low"
     ></script>
     <script>
       quicklink.listen({ priority: true });
