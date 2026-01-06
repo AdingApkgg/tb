@@ -1,140 +1,168 @@
 <!DOCTYPE html>
 <html lang="zh">
+  <head>
+    <meta name="generator" content="Zola" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://registry.npmmirror.com/" crossorigin />
+    <link rel="dns-prefetch" href="https://registry.npmmirror.com/" />
+    {% set resolved_title = page.title | default(value=config.title) %} {% set
+    resolved_description = page.description | default(value=config.description)
+    %} {% set resolved_keywords = page.extra.keywords |
+    default(value=config.extra.keywords) %}
+    <title>{{ resolved_title | safe }}</title>
+    <meta name="description" content="{{ resolved_description | safe }}" />
+    <meta name="keywords" content="{{ resolved_keywords | safe }}" />
+    <meta name="author" content="{{ config.author }}" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="{{ resolved_title | safe }}" />
+    <meta
+      property="og:description"
+      content="{{ resolved_description | safe }}"
+    />
+    <meta property="og:image" content="/favicon.ico" />
+    <meta property="og:url" content="{{ config.base_url }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="{{ config.extra.site_name }}" />
+    <meta property="og:locale" content="{{ config.default_language }}" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      href="{{ config.base_url }}/rss.xml"
+      title="{{ config.title }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ get_url(path='site.css') }}"
+      fetchpriority="high"
+    />
+    <link
+      rel="stylesheet"
+      href="https://registry.npmmirror.com/@fortawesome/fontawesome-free/latest/files/css/all.min.css"
+      fetchpriority="high"
+    />
+    <script
+      type="module"
+      src="https://registry.npmmirror.com/instant.page/latest/files/instantpage.js"
+    ></script>
+    <script
+      src="https://registry.npmmirror.com/quicklink/latest/files/dist/quicklink.umd.js"
+      importance="high"
+    ></script>
+    <script
+      async
+      src="https://registry.npmmirror.com/pace-js/latest/files/pace.min.js"
+      importance="high"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://registry.npmmirror.com/pace-js/latest/files/themes/blue/pace-theme-flash.css"
+      importance="high"
+    />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  </head>
 
-<head>
-  <meta name="generator" content="Zola" />
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  {% if page.extra.comments is defined and page.extra.comments == "true" %}
-  <meta name="turbo-visit-control" content="reload">
-  {% endif %}
-  <link rel="preconnect" href="https://registry.npmmirror.com/" crossorigin />
-  <link rel="dns-prefetch" href="https://registry.npmmirror.com/" />
-  {% set resolved_title = page.title | default(value=config.title) %} {% set
-  resolved_description = page.description | default(value=config.description)
-  %} {% set resolved_keywords = page.extra.keywords |
-  default(value=config.extra.keywords) %}
-  <title>{{ resolved_title | safe }}</title>
-  <meta name="description" content="{{ resolved_description | safe }}" />
-  <meta name="keywords" content="{{ resolved_keywords | safe }}" />
-  <meta name="author" content="{{ config.author }}" />
-  <meta name="robots" content="index, follow" />
-  <meta property="og:title" content="{{ resolved_title | safe }}" />
-  <meta property="og:description" content="{{ resolved_description | safe }}" />
-  <meta property="og:image" content="/favicon.ico" />
-  <meta property="og:url" content="{{ config.base_url }}" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="{{ config.extra.site_name }}" />
-  <meta property="og:locale" content="{{ config.default_language }}" />
-  <link rel="alternate" type="application/rss+xml" href="{{ config.base_url }}/rss.xml" title="{{ config.title }}" />
-  <link rel="stylesheet" href="{{ get_url(path='site.css') }}" fetchpriority="high" />
-  <link rel="stylesheet"
-    href="https://registry.npmmirror.com/@fortawesome/fontawesome-free/latest/files/css/all.min.css"
-    fetchpriority="high" />
-  <script type="module" src="https://registry.npmmirror.com/instant.page/latest/files/instantpage.js"></script>
-  <script type="module"
-    src="https://registry.npmmirror.com/@hotwired/turbo/latest/files/dist/turbo.es2017-esm.js"></script>
-  <script src="https://registry.npmmirror.com/quicklink/latest/files/dist/quicklink.umd.js" importance="high"></script>
-  <script async src="https://registry.npmmirror.com/pace-js/latest/files/pace.min.js" importance="high"></script>
-  <link rel="stylesheet" href="https://registry.npmmirror.com/pace-js/latest/files/themes/blue/pace-theme-flash.css"
-    importance="high" />
-  <link rel="stylesheet" href="https://registry.npmmirror.com/animate.css/latest/files/animate.min.css"
-    fetchpriority="high" />
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-</head>
-
-<body>
-  <header>
-    <a class="header__logo white" href="/"><img src="/favicon.ico" alt="logo" loading="lazy" /></a>
-    <nav>
-      <ul>
-        <li>
-          <a href="/guide/"><i class="fas fa-compass"></i>&nbsp;指南</a>
-        </li>
-        <li>
-          <a href="/faq/"><i class="fas fa-question-circle"></i>&nbsp;问答</a>
-        </li>
-        <li>
-          <a href="/comments/"><i class="fas fa-comments"></i>&nbsp;留言</a>
-        </li>
-        <li>
-          <a href="/search/"><i class="fas fa-search"></i>&nbsp;搜索</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <main class="content animate__animated animate__fadeIn">
-    {% block content %} {% endblock content %}
-    {% if page.extra.comments is defined and page.extra.comments == "true" %}
-    <link rel="stylesheet" href="https://registry.npmmirror.com/artalk/latest/files/dist/Artalk.css"
-      fetchpriority="low" />
-    <link rel="stylesheet" href="https://registry.npmmirror.com/lightgallery/latest/files/css/lightgallery.css"
-      fetchpriority="low" />
-    <div id="Comments" data-turbo-temporary></div>
-    <script defer src="https://registry.npmmirror.com/lightgallery/latest/files/lightgallery.min.js"
-      fetchpriority="low"></script>
-    <script defer src="https://registry.npmmirror.com/artalk/latest/files/dist/Artalk.js" fetchpriority="low"></script>
-    <script defer
-      src="https://registry.npmmirror.com/@artalk/plugin-lightbox/latest/files/dist/artalk-plugin-lightbox.js"
-      fetchpriority="low"></script>
-    <script data-turbo-eval="false">
-      function initArtalk() {
-        // 如果Artalk已存在，先销毁
-        if (window.artalk) {
-          window.artalk.destroy();
-        }
-        // 初始化Artalk
-        window.artalk = Artalk.init({
+  <body>
+    <header>
+      <a class="header__logo white" href="/"
+        ><img src="/favicon.ico" alt="logo" loading="lazy"
+      /></a>
+      <nav>
+        <ul>
+          <li>
+            <a href="/guide/"><i class="fas fa-compass"></i>&nbsp;指南</a>
+          </li>
+          <li>
+            <a href="/faq/"><i class="fas fa-question-circle"></i>&nbsp;问答</a>
+          </li>
+          <li>
+            <a href="/comments/"><i class="fas fa-comments"></i>&nbsp;留言</a>
+          </li>
+          <li>
+            <a href="/search/"><i class="fas fa-search"></i>&nbsp;搜索</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content">
+      {% block content %} {% endblock content %} {% if page.extra.comments is
+      defined and page.extra.comments == "true" %}
+      <link
+        rel="stylesheet"
+        href="https://registry.npmmirror.com/artalk/latest/files/dist/Artalk.css"
+      />
+      <link
+        rel="stylesheet"
+        href="https://registry.npmmirror.com/lightgallery/latest/files/css/lightgallery.css"
+      />
+      <div id="Comments"></div>
+      <script src="https://registry.npmmirror.com/lightgallery/latest/files/lightgallery.min.js"></script>
+      <script src="https://registry.npmmirror.com/artalk/latest/files/dist/Artalk.js"></script>
+      <script src="https://registry.npmmirror.com/@artalk/plugin-lightbox/latest/files/dist/artalk-plugin-lightbox.js"></script>
+      <script>
+        Artalk.init({
           el: "#Comments",
-          pageKey: "https://tb.saop.cc", // 动态使用Zola的页面链接
+          pageKey: "https://tb.saop.cc",
           server: "https://artalk.saop.cc",
           site: "图吧工具",
           darkMode: true,
         });
-      }
-      // Turbo页面加载完成后初始化
-      document.addEventListener("turbo:load", initArtalk);
-      // 首次加载时也初始化
-      document.addEventListener("DOMContentLoaded", initArtalk);
-    </script>
-    {% endif %}
-  </main>
-  <footer>
-    <turbo-frame>
+      </script>
+      {% endif %}
+    </main>
+    <footer>
       <p>
-        访问：<span id="busuanzi_value_site_pv">null</span>，访客：<span id="busuanzi_value_site_uv">null</span>
+        访问：<span id="busuanzi_value_site_pv">null</span>，访客：<span
+          id="busuanzi_value_site_uv"
+          >null</span
+        >
       </p>
-    </turbo-frame>
-    <p class="links">
-      <a href="/kb/"><i class="fas fa-toolbox"></i>&nbsp;卡硬工具箱</a>&nbsp;
-      <a href="https://www.bilibili.com/video/BV1BG4y137mG" target="_blank"><i
-          class="fas fa-screwdriver"></i>&nbsp;电脑装机教程</a>&nbsp;
-      <a href="https://www.bilibili.com/video/BV1DJ411D79y" target="_blank"><i
-          class="fas fa-icons"></i>&nbsp;系统安装教程</a>&nbsp;<a href="/cpu-ranking/"><i
-          class="fas fa-microchip"></i>&nbsp;CPU
-        天梯</a>&nbsp;
-      <a href="/gpu-ranking/"><i class="fas fa-fan"></i>&nbsp;显卡天梯</a>&nbsp;
-      <a href="/links/"><i class="fas fa-link"></i>&nbsp;友站</a>&nbsp;
-      <a href="/sdk/"><i class="fas fa-bolt"></i>&nbsp;引擎</a>&nbsp;
-      <a href="/update/"><i class="fas fa-pen"></i>&nbsp;更新日志</a>&nbsp;
-      <a href="/feed/"><i class="fas fa-rss"></i>&nbsp;订阅</a>&nbsp;
-      <a href="/sitemap.xml"><i class="fas fa-sitemap"></i>&nbsp;站点地图</a>&nbsp; <a href="/os/"><i
-          class="fas fa-code"></i>&nbsp;开源</a>&nbsp;
-      <a href="/donate/"><i class="fas fa-hand-holding-dollar"></i>&nbsp;捐赠</a>&nbsp;
-      <a href="/url/"><i class="fas fa-anchor-lock"></i>&nbsp;永久网址</a>&nbsp;
-      <a href="/bbs/"><i class="fas fa-user-group"></i>&nbsp;社区群组</a>&nbsp;
-      <a href="/about/"><i class="fas fa-info-circle"></i>&nbsp;关于本站</a>&nbsp;
-      <a href="https://github.com/AdingApkgg/tb" target="_blank"><i class="fab fa-github"></i>&nbsp;GitHub</a>
-    </p>
-    <p class="copyright">
-      <b><a href="https://saop.cc" target="_blank"><i class="fas fa-copyright"></i>&nbsp;Asuna</a></b>
-    </p>
-  </footer>
-  <script async src="https://registry.npmmirror.com/js-asuna/latest/files/js/bsz.pure.mini.js"
-    fetchpriority="low"></script>
-  <script>
-    quicklink.listen({ priority: true });
-  </script>
-</body>
-
+      <p class="links">
+        <a href="/kb/"><i class="fas fa-toolbox"></i>&nbsp;卡硬工具箱</a>&nbsp;
+        <a href="https://www.bilibili.com/video/BV1BG4y137mG" target="_blank"
+          ><i class="fas fa-screwdriver"></i>&nbsp;电脑装机教程</a
+        >&nbsp;
+        <a href="https://www.bilibili.com/video/BV1DJ411D79y" target="_blank"
+          ><i class="fas fa-icons"></i>&nbsp;系统安装教程</a
+        >&nbsp;<a href="/cpu-ranking/"
+          ><i class="fas fa-microchip"></i>&nbsp;CPU 天梯</a
+        >&nbsp;
+        <a href="/gpu-ranking/"><i class="fas fa-fan"></i>&nbsp;显卡天梯</a
+        >&nbsp;
+        <a href="/links/"><i class="fas fa-link"></i>&nbsp;友站</a>&nbsp;
+        <a href="/sdk/"><i class="fas fa-bolt"></i>&nbsp;引擎</a>&nbsp;
+        <a href="/update/"><i class="fas fa-pen"></i>&nbsp;更新日志</a>&nbsp;
+        <a href="/feed/"><i class="fas fa-rss"></i>&nbsp;订阅</a>&nbsp;
+        <a href="/sitemap.xml"><i class="fas fa-sitemap"></i>&nbsp;站点地图</a
+        >&nbsp; <a href="/os/"><i class="fas fa-code"></i>&nbsp;开源</a>&nbsp;
+        <a href="/donate/"
+          ><i class="fas fa-hand-holding-dollar"></i>&nbsp;捐赠</a
+        >&nbsp;
+        <a href="/url/"><i class="fas fa-anchor-lock"></i>&nbsp;永久网址</a
+        >&nbsp;
+        <a href="/bbs/"><i class="fas fa-user-group"></i>&nbsp;社区群组</a
+        >&nbsp;
+        <a href="/about/"><i class="fas fa-info-circle"></i>&nbsp;关于本站</a
+        >&nbsp;
+        <a href="https://github.com/AdingApkgg/tb" target="_blank"
+          ><i class="fab fa-github"></i>&nbsp;GitHub</a
+        >
+      </p>
+      <p class="copyright">
+        <b
+          ><a href="https://saop.cc" target="_blank"
+            ><i class="fas fa-copyright"></i>&nbsp;Asuna</a
+          ></b
+        >
+      </p>
+    </footer>
+    <script
+      async
+      src="https://registry.npmmirror.com/js-asuna/latest/files/js/bsz.pure.mini.js"
+      fetchpriority="low"
+    ></script>
+    <script>
+      quicklink.listen({ priority: true });
+    </script>
+  </body>
 </html>

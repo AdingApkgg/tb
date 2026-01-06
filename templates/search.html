@@ -18,21 +18,47 @@
     };
   }
 
+  // 高亮函数
+  function highlight(text, indices) {
+    if (!indices || indices.length === 0) return text;
+    let result = "";
+    let last = 0;
+    indices.forEach(([start, end]) => {
+      result +=
+        text.slice(last, start) +
+        "<mark>" +
+        text.slice(start, end + 1) +
+        "</mark>";
+      last = end + 1;
+    });
+    result += text.slice(last);
+    return result;
+  }
+
   fetch("/search_index.zh.json")
     .then((response) => {
       if (!response.ok) throw new Error("无法加载搜索索引");
       return response.json();
     })
     .then((data) => {
-      const fuse = new Fuse(data, {
-        keys: [
-          { name: "title", weight: 0.7 },
-          { name: "body", weight: 0.3 },
-        ],
-        threshold: 0.4,
-        includeMatches: true,
-        minMatchCharLength: 2,
-      });
+      // 预创建索引，加速搜索（站点大时特别有用）
+      const index = Fuse.createIndex(["title", "body"], data);
+      const fuse = new Fuse(
+        data,
+        {
+          keys: [
+            { name: "title", weight: 0.7 },
+            { name: "body", weight: 0.3 },
+          ],
+          threshold: 0.3, // 中文下稍松一点，更友好
+          ignoreLocation: true, // 匹配位置不影响分数
+          includeMatches: true,
+          includeScore: true,
+          minMatchCharLength: 1,
+        },
+        index
+      );
+
       const input = document.getElementById("search-input");
       const results = document.getElementById("search-results");
       const noResults = document.getElementById("no-results");
@@ -41,34 +67,53 @@
         "input",
         debounce((e) => {
           const query = e.target.value.trim();
-          if (query.length < 2) {
+          if (query.length < 1) {
             results.innerHTML = "";
             noResults.classList.add("hidden");
             return;
           }
+
           const searchResults = fuse.search(query);
-          results.innerHTML =
-            searchResults.length > 0
-              ? searchResults
-                .map(
-                  (result) => `
-              <li>
-                <a href="${result.item.url}">${result.item.title
-                    }</a>
-                <small>${result.item.body.slice(0, 100)}${result.item.body.length > 100 ? "..." : ""
-                    }</small>
-              </li>
-            `
-                )
-                .join("")
-              : "";
-          noResults.classList.toggle("hidden", searchResults.length > 0);
+          if (searchResults.length === 0) {
+            results.innerHTML = "";
+            noResults.classList.remove("hidden");
+            return;
+          }
+
+          results.innerHTML = searchResults
+            .map((result) => {
+              const item = result.item;
+              const titleMatches =
+                result.matches.find((m) => m.key === "title")?.indices || [];
+              const bodyMatches =
+                result.matches.find((m) => m.key === "body")?.indices || [];
+
+              const highlightedTitle = highlight(item.title, titleMatches);
+              const snippet = item.body.slice(0, 150);
+              const highlightedSnippet = highlight(snippet, bodyMatches);
+
+              return `
+            <li>
+              <a href="${item.url}">${highlightedTitle}</a>
+              <small>${highlightedSnippet}${
+                item.body.length > 150 ? "..." : ""
+              }</small>
+            </li>
+          `;
+            })
+            .join("");
+
+          noResults.classList.add("hidden");
         }, 300)
       );
+
+      // 初始隐藏无结果提示
+      noResults.classList.add("hidden");
     })
     .catch((error) => {
       console.error("搜索初始化失败:", error);
-      results.innerHTML = "<li>搜索功能暂不可用，请稍后重试</li>";
+      document.getElementById("search-results").innerHTML =
+        "<li>搜索功能暂不可用</li>";
     });
 </script>
 {% endblock content %}
