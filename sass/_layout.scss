@@ -3,36 +3,9 @@
   --table-row-hover-bg-color: #36363670;
 }
 
-header {
-  padding: 1.6em 2em;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  column-gap: 2em;
-
-  // Container is reused elsewhere, so this must be declared here
-  nav {
-    display: flex;
-    flex-grow: 1;
-    flex-wrap: wrap;
-    align-items: baseline;
-    justify-content: right;
-    gap: 1em 1em;
-    margin: 0;
-  }
-}
-
 .container {
   max-width: 1000px;
   margin: 0 auto;
-}
-
-@media only screen and (max-width: 1000px) {
-  header {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-  }
 }
 
 .content {
