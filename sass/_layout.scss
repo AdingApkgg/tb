@@ -29,15 +29,9 @@ header {
 
 @media only screen and (max-width: 1000px) {
   header {
-    display: inline-block;
-    margin-bottom: 1.6em;
-    max-height: 60px;
-
-    nav {
-      float: right;
-      padding: 0 0.6em;
-      line-height: 3.2;
-    }
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
   }
 }
 

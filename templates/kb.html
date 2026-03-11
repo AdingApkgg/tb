@@ -3,56 +3,14 @@
   <img src="/img/hardinfo-kb.avif" alt="hardinfo" />
   <h1 class="title">{% block title %}{{ page.title }}{% endblock title %}</h1>
   <p class="hero__tagline">{{ page.extra.hero_tagline }}</p>
-  <h2>主线下载</h2>
   <p>
-    <a
-      class="button hero__download"
-      href="{{ config.extra.dl_url }}kaying_tools_V2.98_setup.exe"
-      ><i class="fas fa-download"></i>&nbsp;立即下载 .exe</a
-    >&nbsp;<a
-      class="button"
-      href="{{ config.extra.dl_url }}kaying_tools_V2.98.7z"
-      ><i class="fas fa-download"></i>&nbsp;绿色下载 .7z</a
-    >
-  </p>
-  <p>如下载慢或失败，请尝试备线下载。</p>
-  <h2><a target="_blank" href="https://wp.smxdiy.top/">卡硬官方</a>备线下载</h2>
-  <p>
-    <a
-      class="button hero__download"
-      target="_blank"
-      href="https://wp.smxdiy.top/%E5%8D%A1%E7%A1%AC%E5%B7%A5%E5%85%B7%E7%AE%B1/kaying_tools_V2.98_setup.zip"
-      ><i class="fas fa-download"></i>&nbsp;立即下载 .zip</a
-    >&nbsp;<a
-      class="button"
-      target="_blank"
-      href="https://wp.smxdiy.top/%E5%8D%A1%E7%A1%AC%E5%B7%A5%E5%85%B7%E7%AE%B1/kaying_tools_V2.98.7z"
-      ><i class="fas fa-download"></i>&nbsp;绿色下载 .7z</a
-    >
-  </p>
-  <h2>
-    <a target="_blank" href="https://github.com/AdingApkgg/tb/releases/latest"
-      >GitHub</a
-    >
-    备线下载
-  </h2>
-  <p>
-    <a
-      class="button hero__download"
-      href="{{ config.extra.dl_url_backup }}kb.exe"
-      ><i class="fas fa-download"></i>&nbsp;立即下载 .exe</a
-    >&nbsp;<a class="button" href="{{ config.extra.dl_url_backup }}kb.7z"
-      ><i class="fas fa-download"></i>&nbsp;绿色下载 .7z</a
+    <a class="button hero__download" href="/downloads/"
+      ><i class="fas fa-download"></i>&nbsp;立即下载</a
     >
   </p>
   <p>灵活易用 & 绿色纯净 & 免费使用</p>
   <div class="selling-points__content container">
     <p>{{ page.description }}</p>
   </div>
-  <h2>报毒说明</h2>
-  <p>
-    本软件由于带了部分绿化版软件。可能会被部分杀毒软件误认为病毒。请添加信任或关闭杀软。
-  </p>
-  <img src="/img/faq-kb.avif" alt="faq-kb" />
 </div>
 {% endblock content %}

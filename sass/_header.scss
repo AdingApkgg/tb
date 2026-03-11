@@ -22,20 +22,75 @@ header {
       text-decoration: none;
     }
   }
+
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav-toggle-label {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
   header {
-    padding: 0 0;
-
-    nav {
-      text-align: center;
-    }
+    padding: 0.8em 1em;
+    position: relative;
 
     .header__logo {
-      // to force menu links to be on a line below
-      text-align: center;
+      text-align: left;
+
+      img {
+        height: 32px;
+        width: auto;
+      }
+    }
+
+    .nav-toggle-label {
+      display: block;
+      position: absolute;
+      top: 0.8em;
+      right: 1em;
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: $foreground;
+      border-bottom: none;
+      line-height: 1;
+    }
+
+    nav {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: rgba(25, 25, 25, 0.95);
+      backdrop-filter: blur(8px);
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+      z-index: 100;
+      justify-content: center;
+    }
+
+    .nav-toggle:checked ~ nav {
+      max-height: none;
+    }
+
+    nav ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+      padding: 0.5em 1em;
       width: 100%;
+      max-width: 320px;
+      margin: 0 auto;
+    }
+
+    nav li a {
+      display: block;
+      padding: 0.75em 0;
+      text-align: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
   }
 }
