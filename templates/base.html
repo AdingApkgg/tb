@@ -6,10 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://registry.npmmirror.com/" crossorigin />
     <link rel="dns-prefetch" href="https://registry.npmmirror.com/" />
-    {% set resolved_title = page.title | default(value=config.title) %} {% set
-    resolved_description = page.description | default(value=config.description)
-    %} {% set resolved_keywords = page.extra.keywords |
-    default(value=config.extra.keywords) %}
+    {% set resolved_title = page?.title or section?.title or config.title %}
+    {% set resolved_description = page?.description or section?.description or config.description %}
+    {% set resolved_keywords = page?.extra?.keywords or section?.extra?.keywords or config.extra.keywords %}
     <title>{{ resolved_title | safe }}</title>
     <meta name="description" content="{{ resolved_description | safe }}" />
     <meta name="keywords" content="{{ resolved_keywords | safe }}" />
@@ -115,8 +114,7 @@
       </nav>
     </header>
     <main class="content">
-      {% block content %} {% endblock content %} {% if page.extra.comments is
-      defined and page.extra.comments == "true" %}
+      {% block content %} {% endblock content %} {% if page?.extra?.comments == "true" %}
       <link
         rel="stylesheet"
         href="https://registry.npmmirror.com/artalk/latest/files/dist/Artalk.css"

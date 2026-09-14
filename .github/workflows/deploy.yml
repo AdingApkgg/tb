@@ -22,7 +22,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     env:
-      ZOLA_VERSION: 0.22.1
+      ZOLA_VERSION: 0.23.6
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
